@@ -1,0 +1,21 @@
+html {
+    font-family: Arial;
+    font-size: 20px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar navbutton {
+    background-color: #595959;
+}
+h1, h2 {
+    text-align: center;
+}
