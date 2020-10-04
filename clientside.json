@@ -1,0 +1,2499 @@
+{
+  "colors": {
+    "Aboleth": {
+      "background": "#4caeae"
+    },
+    "Deva": {
+      "background": "#dfc220"
+    },
+    "Planetar": {
+      "background": "#00997a"
+    },
+    "Solar": {
+      "background": "#c63939"
+    },
+    "AnimatedArmor": {
+      "background": "#c0c0c0"
+    },
+    "FlyingSword": {
+      "background": "#737373"
+    },
+    "RugOfSmothering": {
+      "background": "#cc0000"
+    },
+    "Ankheg": {
+      "background": "#cc3300"
+    },
+    "Azer": {
+      "background": "#ff8000"
+    },
+    "Basilisk": {
+      "background": "#80ccff"
+    },
+    "Behir": {
+      "background": "#468bb9"
+    },
+    "Bugbear": {
+      "background": "#cc6600"
+    },
+    "Bulette": {
+      "background": "#80aaff"
+    },
+    "Centaur": {
+      "background": "#993300"
+    },
+    "Chimera": {
+      "background": "#ff6100"
+    },
+    "Chuul": {
+      "background": "#888844"
+    },
+    "Cloaker": {
+      "background": "#000010"
+    },
+    "Cockatrice": {
+      "background": "#4b4f4f"
+    },
+    "Couatl": {
+      "background": "#00336e"
+    },
+    "Darkmantle": {
+      "background": "#d59090"
+    },
+    "Balor": {
+      "background": "#c63939"
+    },
+    "Dretch": {
+      "background": "#0088cc"
+    },
+    "Glabrezu": {
+      "background": "#990000"
+    },
+    "Hezrou": {
+      "background": "#cc3300"
+    },
+    "Marilith": {
+      "background": "#00802b"
+    },
+    "Nalfeshnee": {
+      "background": "#000099"
+    },
+    "Quasit": {
+      "background": "#009900"
+    },
+    "Vrock": {
+      "background": "#3e3e74"
+    },
+    "BarbedDevil": {
+      "background": "#336600"
+    },
+    "BeardedDevil": {
+      "background": "#a63f84"
+    },
+    "BoneDevil": {
+      "background": "#ffebe6",
+      "color": "black"
+    },
+    "ChainDevil": {
+      "background": "#cc2900"
+    },
+    "Erinyes": {
+      "background": "#991f00"
+    },
+    "HornedDevil": {
+      "background": "#cc6600"
+    },
+    "IceDevil": {
+      "background": "#b3b3ff"
+    },
+    "Imp": {
+      "background": "#b30000"
+    },
+    "Lemure": {
+      "background": "#ff9999"
+    },
+    "PitFiend": {
+      "background": "#e60000"
+    },
+    "Plesiosaurus": {
+      "background": "#3366cc"
+    },
+    "Pteranodon": {
+      "background": "#ff9933"
+    },
+    "Triceratops": {
+      "background": "#6b6b47"
+    },
+    "TyrannosaurusRex": {
+      "background": "#8f7356"
+    },
+    "Doppelganger": {
+      "background": "#8080ff"
+    },
+    "AncientBlackDragon": {
+      "background": "#000000"
+    },
+    "AdultBlackDragon": {
+      "background": "#1a1a1a"
+    },
+    "YoungBlackDragon": {
+      "background": "#333333"
+    },
+    "BlackDragonWyrmling": {
+      "background": "#4d4d4d"
+    },
+    "AncientBlueDragon": {
+      "background": "#0000ff"
+    },
+    "AdultBlueDragon": {
+      "background": "#3333ff"
+    },
+    "YoungBlueDragon": {
+      "background": "#6666ff"
+    },
+    "BlueDragonWyrmling": {
+      "background": "#9999ff"
+    },
+    "AncientGreenDragon": {
+      "background": "#008000"
+    },
+    "AdultGreenDragon": {
+      "background": "#00b300"
+    },
+    "YoungGreenDragon": {
+      "background": "#00e600"
+    },
+    "GreenDragonWyrmling": {
+      "background": "#66ff66"
+    },
+    "AncientRedDragon": {
+      "background": "#cc0000"
+    },
+    "AdultRedDragon": {
+      "background": "#ff0000"
+    },
+    "YoungRedDragon": {
+      "background": "#ff3333"
+    },
+    "RedDragonWyrmling": {
+      "background": "#ff6666"
+    },
+    "AncientWhiteDragon": {
+      "background": "#cccccc",
+      "color": "black"
+    },
+    "AdultWhiteDragon": {
+      "background": "#d9d9d9",
+      "color": "black"
+    },
+    "YoungWhiteDragon": {
+      "background": "#e6e6e6",
+      "color": "black"
+    },
+    "WhiteDragonWyrmling": {
+      "background": "#f2f2f2",
+      "color": "black"
+    },
+    "AncientBrassDragon": {
+      "background": "#7e6200"
+    },
+    "AdultBrassDragon": {
+      "background": "#b38c00"
+    },
+    "YoungBrassDragon": {
+      "background": "#e6b400"
+    },
+    "BrassDragonWyrmling": {
+      "background": "#ffcd1a"
+    },
+    "AncientBronzeDragon": {
+      "background": "#b35900"
+    },
+    "AdultBronzeDragon": {
+      "background": "#e67300"
+    },
+    "YoungBronzeDragon": {
+      "background": "#ff8c1a"
+    },
+    "BronzeDragonWyrmling": {
+      "background": "#ffa64d"
+    },
+    "AncientCopperDragon": {
+      "background": "#b34700"
+    },
+    "AdultCopperDragon": {
+      "background": "#e65c00"
+    },
+    "YoungCopperDragon": {
+      "background": "#ff751a"
+    },
+    "CopperDragonWyrmling": {
+      "background": "#ff944d"
+    },
+    "AncientGoldDragon": {
+      "background": "#ffbf00"
+    },
+    "AdultGoldDragon": {
+      "background": "#ffc61a"
+    },
+    "YoungGoldDragon": {
+      "background": "#ffcc33"
+    },
+    "GoldDragonWyrmling": {
+      "background": "#ffd24d"
+    },
+    "AncientSilverDragon": {
+      "background": "#a6a6a6"
+    },
+    "AdultSilverDragon": {
+      "background": "#b3b3b3"
+    },
+    "YoungSilverDragon": {
+      "background": "#c0c0c0"
+    },
+    "SilverDragonWyrmling": {
+      "background": "#cccccc"
+    },
+    "DragonTurtle": {
+      "background": "#ae654c"
+    },
+    "Drider": {
+      "background": "#666666"
+    },
+    "Dryad": {
+      "background": "#60994d"
+    },
+    "Duergar": {
+      "background": "#ecc6d9"
+    },
+    "AirElemental": {
+      "background": "#d9d9d9"
+    },
+    "EarthElemental": {
+      "background": "#996633"
+    },
+    "FireElemental": {
+      "background": "#ff6600"
+    },
+    "WaterElemental": {
+      "background": "#6bb0c7"
+    },
+    "Drow": {
+      "background": "#00004d"
+    },
+    "Ettercap": {
+      "background": "#5900b3"
+    },
+    "Ettin": {
+      "background": "#c2a3af"
+    },
+    "Shrieker": {
+      "background": "#669900"
+    },
+    "VioletFungus": {
+      "background": "#ee82ee"
+    },
+    "Gargoyle": {
+      "background": "#666699"
+    },
+    "Dao": {
+      "background": "#ff4d4d"
+    },
+    "Djinni": {
+      "background": "#4545a1"
+    },
+    "Efreeti": {
+      "background": "#b30000"
+    },
+    "Ghost": {
+      "background": "#007acc"
+    },
+    "Ghoul": {
+      "background": "#cccccc"
+    },
+    "CloudGiant": {
+      "background": "#009999"
+    },
+    "FireGiant": {
+      "background": "#700f0f"
+    },
+    "FrostGiant": {
+      "background": "#7da1e8"
+    },
+    "HillGiant": {
+      "background": "#f5a3a3"
+    },
+    "StoneGiant": {
+      "background": "#7599bd"
+    },
+    "StormGiant": {
+      "background": "#4b739b"
+    },
+    "GibberingMouther": {
+      "background": "#ff3333"
+    },
+    "Gnoll": {
+      "background": "#54544b"
+    },
+    "DeepGnome": {
+      "background": "#545475"
+    },
+    "Goblin": {
+      "background": "#ffcc99"
+    },
+    "ClayGolem": {
+      "background": "#7e651b"
+    },
+    "FleshGolem": {
+      "background": "#df4e2d"
+    },
+    "IronGolem": {
+      "background": "#674c59"
+    },
+    "StoneGolem": {
+      "background": "#428a8a"
+    },
+    "Gorgon": {
+      "background": "#595959"
+    },
+    "Grick": {
+      "background": "#336600"
+    },
+    "Griffon": {
+      "background": "#e09952"
+    },
+    "Grimlock": {
+      "background": "#67677e"
+    },
+    "GreenHag": {
+      "background": "#235c23"
+    },
+    "NightHag": {
+      "background": "#9900ff"
+    },
+    "SeaHag": {
+      "background": "#70b0db"
+    },
+    "HalfRedDragonVeteran": {
+      "background": "#cc0000"
+    },
+    "Harpy": {
+      "background": "#ec79ec"
+    },
+    "HellHound": {
+      "background": "#4d0000"
+    },
+    "Hippogriff": {
+      "background": "#b3bfcc"
+    },
+    "Hobgoblin": {
+      "background": "#9999ff"
+    },
+    "Homunculus": {
+      "background": "#c2c2a3"
+    },
+    "Hydra": {
+      "background": "#669900"
+    },
+    "InvisibleStalker": {
+      "background": "#a790ff"
+    },
+    "Kobold": {
+      "background": "#996600"
+    },
+    "Kraken": {
+      "background": "#9e4c2e"
+    },
+    "Lamia": {
+      "background": "#d75f42"
+    },
+    "Lich": {
+      "background": "#990000"
+    },
+    "Lizardfolk": {
+      "background": "#009933"
+    },
+    "Werebear": {
+      "background": "#663300"
+    },
+    "Wereboar": {
+      "background": "#52527a"
+    },
+    "Wererat": {
+      "background": "#bebef4"
+    },
+    "Weretiger": {
+      "background": "#ffad33"
+    },
+    "Werewolf": {
+      "background": "#73738c"
+    },
+    "Magmin": {
+      "background": "#b36b00"
+    },
+    "Manticore": {
+      "background": "#d78875"
+    },
+    "Medusa": {
+      "background": "#8aa8a8"
+    },
+    "DustMephit": {
+      "background": "#c0ab59"
+    },
+    "IceMephit": {
+      "background": "#f2f2f2",
+      "color": "black"
+    },
+    "MagmaMephit": {
+      "background": "#b30000"
+    },
+    "SteamMephit": {
+      "background": "#ffffff",
+      "color": "black"
+    },
+    "Merfolk": {
+      "background": "#63cee9"
+    },
+    "Merrow": {
+      "background": "#42548a"
+    },
+    "Mimic": {
+      "background": "#9900ff"
+    },
+    "Minotaur": {
+      "background": "#af6a6a"
+    },
+    "Mummy": {
+      "background": "#e6e6e6",
+      "color": "black"
+    },
+    "MummyLord": {
+      "background": "#bfc3be",
+      "color": "black"
+    },
+    "SpiritNaga": {
+      "background": "#1919b3"
+    },
+    "GuardianNaga": {
+      "background": "#339933"
+    },
+    "Nightmare": {
+      "background": "#00001a"
+    },
+    "Nothic": {
+      "background": "#602040"
+    },
+    "Ogre": {
+      "background": "#d2a479"
+    },
+    "Oni": {
+      "background": "#67b2e4"
+    },
+    "BlackPudding": {
+      "background": "#261b32"
+    },
+    "GelatinousCube": {
+      "background": "#d4e6f7",
+      "color": "black"
+    },
+    "GrayOoze": {
+      "background": "#404040"
+    },
+    "OchreJelly": {
+      "background": "#cca633"
+    },
+    "Orc": {
+      "background": "#bfbfd9"
+    },
+    "Otyugh": {
+      "background": "#e0a66c"
+    },
+    "Owlbear": {
+      "background": "#9275bd"
+    },
+    "Pegasus": {
+      "background": "#f2f2f2",
+      "color": "black"
+    },
+    "Pseudodragon": {
+      "background": "#c05982"
+    },
+    "PurpleWorm": {
+      "background": "#b390d5"
+    },
+    "Rakshasa": {
+      "background": "#d9266e"
+    },
+    "RemorHaz": {
+      "background": "#5ca5d6"
+    },
+    "Roc": {
+      "background": "#194867"
+    },
+    "Roper": {
+      "background": "#b9598c"
+    },
+    "RustMonster": {
+      "background": "#ff7e2b"
+    },
+    "Sahuagin": {
+      "background": "#389438"
+    },
+    "Salamander": {
+      "background": "#a11212"
+    },
+    "Shadow": {
+      "background": "#333333"
+    },
+    "ShamblingMound": {
+      "background": "#009933"
+    },
+    "ShieldGuardian": {
+      "background": "#9d9daf"
+    },
+    "Skeleton": {
+      "background": "#973939"
+    },
+    "MinotaurSkeleton": {
+      "background": "#ccd7cc"
+    },
+    "WarhorseSkeleton": {
+      "background": "#cccccc"
+    },
+    "Specter": {
+      "background": "#994db3"
+    },
+    "Androsphinx": {
+      "background": "#f77979"
+    },
+    "Gynosphinx": {
+      "background": "#f2cca6"
+    },
+    "Sprite": {
+      "background": "#33cc8f"
+    },
+    "Stirge": {
+      "background": "#df5c7e"
+    },
+    "SuccubusOrIncubus": {
+      "background": "#b81e26"
+    },
+    "Tarrasque": {
+      "background": "#bf7340"
+    },
+    "Treant": {
+      "background": "#c76838"
+    },
+    "Troll": {
+      "background": "#5eba5e"
+    },
+    "Unicorn": {
+      "background": "#f7f7a1",
+      "color": "black"
+    },
+    "Vampire": {
+      "background": "#6628a4"
+    },
+    "VampireSpawn": {
+      "background": "#9d9daf"
+    },
+    "WaterWeird": {
+      "background": "#80bfff"
+    },
+    "Wight": {
+      "background": "#735095"
+    },
+    "WillOWisp": {
+      "background": "#f4f471",
+      "color": "black"
+    },
+    "Wraith": {
+      "background": "#4d4d66"
+    },
+    "Wyvern": {
+      "background": "#ea8cb3"
+    },
+    "Xorn": {
+      "background": "#821717"
+    },
+    "Zombie": {
+      "background": "#2d3b11"
+    },
+    "OgreZombie": {
+      "background": "#a38f8f"
+    }
+  },
+  "creatures": {
+    "Aboleth": {
+      "name": "Aboleth",
+      "attacks": {
+        "om": "Tentacle",
+        "tm": "Tentacle",
+        "r": "Tentacle",
+        "t": "Tail",
+        "aoec": "Psychic drain"
+      }
+    },
+    "Deva": {
+      "name": "Deva",
+      "group": "Angels",
+      "attacks": {
+        "tdta": "Mace",
+        "tdtb": "Mace",
+        "h": "Healing Touch"
+      }
+    },
+    "Planetar": {
+      "name": "Planetar",
+      "group": "Angels",
+      "attacks": {
+        "tdta": "Greatsword",
+        "tdtb": "Greatsword",
+        "h": "Healing Touch"
+      }
+    },
+    "Solar": {
+      "name": "Solar",
+      "group": "Angels",
+      "attacks": {
+        "tdta": "Greatsword",
+        "aoed": "Greatsword",
+        "tdtb": "Slaying Longbow",
+        "h": "Healing touch",
+        "aoet": "Searing Burst"
+      }
+    },
+    "AnimatedArmor": {
+      "name": "Animated Armor",
+      "group": "Animated Objects",
+      "attacks": {
+        "tm": "Slam"
+      }
+    },
+    "FlyingSword": {
+      "name": "Flying Sword",
+      "group": "Animated Objects",
+      "attacks": {
+        "tm": "Longsword"
+      }
+    },
+    "RugOfSmothering": {
+      "name": "Rug Of Smothering",
+      "group": "Animated Objects",
+      "attacks": {
+        "tm": "Smother"
+      }
+    },
+    "Ankheg": {
+      "name": "Ankheg",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Acid Spray"
+      }
+    },
+    "Azer": {
+      "name": "Azer",
+      "attacks": {
+        "aoec": "Heated Body",
+        "tdta": "Warhammer one-handed",
+        "tdtb": "Warhammer two-handed"
+      }
+    },
+    "Basilisk": {
+      "name": "Basilisk",
+      "attacks": {
+        "tdta": "Bite"
+      }
+    },
+    "Behir": {
+      "name": "Behir",
+      "attacks": {
+        "tm": "Swallow",
+        "b": "bite",
+        "aoe": "Lightning Breath",
+        "tdta": "Constrict"
+      }
+    },
+    "Bugbear": {
+      "name": "Bugbear",
+      "attacks": {
+        "om": "Javelin melee no Surprise",
+        "tm": "Morningstar no Surprise",
+        "r": "Javelin Ranged no Surprise",
+        "b": "Javelin Melee Surprise",
+        "t": "Javelin Ranged Surprise",
+        "aoe": "Morningstar Melee Surprise"
+      }
+    },
+    "Bulette": {
+      "name": "Bulette",
+      "attacks": {
+        "b": "Bite",
+        "aoet": "Deadly Leap"
+      }
+    },
+    "Centaur": {
+      "name": "Centaur",
+      "attacks": {
+        "om": "Pike",
+        "tm": "Pike Charge",
+        "r": "Hooves",
+        "t": "Longbow",
+        "b": "Longbow"
+      }
+    },
+    "Chimera": {
+      "name": "Chimera",
+      "attacks": {
+        "om": "Horns",
+        "b": "Bite",
+        "aoe": "Fire Breath",
+        "tm": "Claws"
+      }
+    },
+    "Chuul": {
+      "name": "Chuul",
+      "attacks": {
+        "om": "Pincer",
+        "tm": "Pincer"
+      }
+    },
+    "Cloaker": {
+      "name": "Cloaker",
+      "attacks": {
+        "b": "Bite",
+        "t": "Tail"
+      }
+    },
+    "Cockatrice": {
+      "name": "Cockatrice",
+      "attacks": {
+        "b": "Bite"
+      }
+    },
+    "Couatl": {
+      "name": "Couatl",
+      "attacks": {
+        "b": "Bite",
+        "om": "Constrict"
+      }
+    },
+    "Darkmantle": {
+      "name": "Darkmantle",
+      "attacks": {
+        "tm": "Crush"
+      }
+    },
+    "Balor": {
+      "name": "Balor",
+      "group": "Demons",
+      "attacks": {
+        "tdta": "Longsword",
+        "tdtb": "Whip",
+        "aoe": "Death Throes"
+      }
+    },
+    "Dretch": {
+      "name": "Dretch",
+      "group": "Demons",
+      "attacks": {
+        "b": "Bite",
+        "tm": "Claws"
+      }
+    },
+    "Glabrezu": {
+      "name": "Glabrezu",
+      "group": "Demons",
+      "attacks": {
+        "r": "Fist",
+        "b": "Fist",
+        "om": "Pincer",
+        "tm": "Pincer"
+      }
+    },
+    "Hezrou": {
+      "name": "Hezrou",
+      "group": "Demons",
+      "attacks": {
+        "om": "Claws",
+        "tm": "Claws",
+        "b": "Bite"
+      }
+    },
+    "Marilith": {
+      "name": "Marilith",
+      "group": "Demons",
+      "attacks": {
+        "t": "Longsword",
+        "tm": "Longsword",
+        "r": "Longsword",
+        "aoe": "Longsword",
+        "aoeb": "Longsword",
+        "b": "Longsword",
+        "om": "Tail"
+      }
+    },
+    "Nalfeshnee": {
+      "name": "Nalfeshnee",
+      "group": "Demons",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "b": "Bite"
+      }
+    },
+    "Quasit": {
+      "name": "Quasit",
+      "group": "Demons",
+      "attacks": {
+        "pc": "Claws (Bite in Beast form)"
+      }
+    },
+    "Vrock": {
+      "name": "Vrock",
+      "attacks": {
+        "aoed": "Spores",
+        "tm": "Talons",
+        "b": "Beak"
+      }
+    },
+    "BarbedDevil": {
+      "name": "BarbedDevil",
+      "group": "Devils",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "t": "Hurl Flame",
+        "b": "Hurl Flame"
+      }
+    },
+    "BeardedDevil": {
+      "name": "BeardedDevil",
+      "group": "Devils",
+      "attacks": {
+        "om": "Beard",
+        "tdta": "Glaive"
+      }
+    },
+    "BoneDevil": {
+      "name": "BoneDevil",
+      "group": "Devils",
+      "attacks": {
+        "om": "Claws",
+        "tm": "Claws",
+        "tdta": "Sting"
+      }
+    },
+    "ChainDevil": {
+      "name": "ChainDevil",
+      "group": "Devils",
+      "attacks": {
+        "t": "Chain",
+        "tm": "Chain",
+        "r": "Chain",
+        "aoe": "Chain",
+        "aoeb": "Chain",
+        "b": "Chain",
+        "aoec": "Chain Grapple"
+      }
+    },
+    "Erinyes": {
+      "name": "Erinyes",
+      "group": "Devils",
+      "attacks": {
+        "om": "Longsword one-handed",
+        "tm": "Longsword one-handed",
+        "tdta": "Longsword one-handed",
+        "r": "Longsword two-handed",
+        "b": "Longsword two-handed",
+        "tdtb": "Longsword two-handed",
+        "t": "Longbow",
+        "aoe": "Longbow",
+        "aoeb": "Longbow"
+      }
+    },
+    "HornedDevil": {
+      "name": "HornedDevil",
+      "group": "Devils",
+      "attacks": {
+        "om": "Fork",
+        "tm": "Fork",
+        "r": "Tail",
+        "b": "Hurl Flame",
+        "t": "Hurl Flame",
+        "aoe": "Hurl Flame"
+      }
+    },
+    "IceDevil": {
+      "name": "IceDevil",
+      "group": "Devils",
+      "attacks": {
+        "tdta": "Bite",
+        "tdtb": "Claw",
+        "r": "Tail",
+        "aoe": "Wall of Ice",
+        "aoeb": "Wall of Ice (when player moves through)"
+      }
+    },
+    "Imp": {
+      "name": "Imp",
+      "group": "Devils",
+      "attacks": {
+        "pc": "Sting (Bite in Beast Form)"
+      }
+    },
+    "Lemure": {
+      "name": "Lemure",
+      "group": "Devils",
+      "attacks": {
+        "om": "Fist"
+      }
+    },
+    "PitFiend": {
+      "name": "PitFiend",
+      "group": "Devils",
+      "attacks": {
+        "t": "Claw",
+        "tm": "Tail",
+        "r": "Bite",
+        "tdta": "Mace",
+        "aoe": "Fireball",
+        "aoeb": "Wall of Fire",
+        "aoed": "Poison From Bite"
+      }
+    },
+    "Plesiosaurus": {
+      "name": "Plesiosaurus",
+      "group": "Dinosaurs",
+      "attacks": {
+        "tm": "Bite"
+      }
+    },
+    "Triceratops": {
+      "name": "Triceratops",
+      "group": "Dinosaurs",
+      "attacks": {
+        "om": "Gore",
+        "tm": "Gore",
+        "b": "Stomp"
+      }
+    },
+    "TyrannosaurusRex": {
+      "name": "Tyrannosaurus Rex",
+      "group": "Dinosaurs",
+      "attacks": {
+        "b": "Bite",
+        "tm": "Tail"
+      }
+    },
+    "Doppelganger": {
+      "name": "Doppelganger",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam",
+        "r": "Slam Surprise",
+        "b": "Slam Surprise"
+      }
+    },
+    "AncientBlackDragon": {
+      "name": "Ancient Black Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Acid Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultBlackDragon": {
+      "name": "Adult Black Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Acid Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungBlackDragon": {
+      "name": "Young Black Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "tdta": "Bite",
+        "aoe": "Acid Breath"
+      }
+    },
+    "BlackDragonWyrmling": {
+      "name": "Black Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Acid Breath"
+      }
+    },
+    "AncientBlueDragon": {
+      "name": "Ancient Blue Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Lightning Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultBlueDragon": {
+      "name": "Adult Blue Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Lightning Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungBlueDragon": {
+      "name": "Young Blue Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "tdta": "Bite",
+        "aoe": "Lightning Breath"
+      }
+    },
+    "BlueDragonWyrmling": {
+      "name": "Blue Drago nWyrmling",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Lightning Breath"
+      }
+    },
+    "AncientGreenDragon": {
+      "name": "Ancient Green Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Poison Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultGreenDragon": {
+      "name": "Adult Green Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Poison Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungGreenDragon": {
+      "name": "Young Green Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "tdta": "Bite",
+        "aoe": "Poison Breath"
+      }
+    },
+    "GreenDragonWyrmling": {
+      "name": "Green Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Poison Breath"
+      }
+    },
+    "AncientRedDragon": {
+      "name": "Ancient Red Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Fire Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultRedDragon": {
+      "name": "Adult Red Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Fire Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungRedDragon": {
+      "name": "Young Red Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "tdta": "Bite",
+        "aoe": "Fire Breath"
+      }
+    },
+    "RedDragonWyrmling": {
+      "name": "Red Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Fire Breath"
+      }
+    },
+    "AncientWhiteDragon": {
+      "name": "Ancient White Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Cold Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultWhiteDragon": {
+      "name": "Adult White Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "t": "Tail",
+        "aoe": "Cold Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungWhiteDragon": {
+      "name": "Young White Dragon",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "tdta": "Bite",
+        "aoe": "Cold Breath"
+      }
+    },
+    "WhiteDragonWyrmling": {
+      "name": "White Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Chromatic",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Cold Breath"
+      }
+    },
+    "AncientBrassDragon": {
+      "name": "Ancient Brass Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Fire Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultBrassDragon": {
+      "name": "Adult Brass Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Fire Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungBrassDragon": {
+      "name": "Young Brass Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "t": "Bite",
+        "aoe": "Fire Breath"
+      }
+    },
+    "BrassDragonWyrmling": {
+      "name": "Brass Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "aoe": "Fire Breath"
+      }
+    },
+    "AncientBronzeDragon": {
+      "name": "Ancient Bronze Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Lightning Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultBronzeDragon": {
+      "name": "Adult Bronze Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Lightning Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungBronzeDragon": {
+      "name": "Young Bronze Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "t": "Bite",
+        "aoe": "Lightning Breath"
+      }
+    },
+    "BronzeDragonWyrmling": {
+      "name": "Bronze Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "aoe": "Lightning Breath"
+      }
+    },
+    "AncientCopperDragon": {
+      "name": "Ancient Copper Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Acid Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultCopperDragon": {
+      "name": "Adult Copper Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Acid Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungCopperDragon": {
+      "name": "Young Copper Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "t": "Bite",
+        "aoe": "Acid Breath"
+      }
+    },
+    "CopperDragonWyrmling": {
+      "name": "Copper Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "aoe": "Acid Breath"
+      }
+    },
+    "AncientGoldDragon": {
+      "name": "Ancient Gold Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Fire Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultGoldDragon": {
+      "name": "Adult Gold Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Fire Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungGoldDragon": {
+      "name": "Young Gold Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "t": "Bite",
+        "aoe": "Fire Breath"
+      }
+    },
+    "GoldDragonWyrmling": {
+      "name": "Gold Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "aoe": "Fire Breath"
+      }
+    },
+    "AncientSilverDragon": {
+      "name": "Ancient Silver Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Cold Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "AdultSilverDragon": {
+      "name": "Adult Silver Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Tail",
+        "b": "Tail",
+        "tdtb": "Tail",
+        "aoe": "Cold Breath",
+        "aoed": "Wing attack"
+      }
+    },
+    "YoungSilverDragon": {
+      "name": "Young Silver Dragon",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "t": "Bite",
+        "aoe": "Cold Breath"
+      }
+    },
+    "SilverDragonWyrmling": {
+      "name": "Silver Dragon Wyrmling",
+      "group": "Dragons",
+      "Subgroup": "Metallic",
+      "attacks": {
+        "t": "Bite",
+        "aoe": "Cold Breath"
+      }
+    },
+    "DragonTurtle": {
+      "name": "Dragon Turtle",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claw",
+        "r": "Claw",
+        "t": "Tail",
+        "aoe": "Steam Breath"
+      }
+    },
+    "Drider": {
+      "name": "Drider",
+      "attacks": {
+        "om": "Longsword one-handed melee",
+        "tm": "Longsword one-handed melee",
+        "r": "Longsword one-handed melee",
+        "b": "Longsword two-handed melee",
+        "t": "Longsword two-handed melee",
+        "aoe": "Longsword two-handed melee",
+        "tdtb": "Longbow",
+        "aoeb": "Longbow",
+        "aoec": "Longbow",
+        "tdta": "Bite"
+      }
+    },
+    "Dryad": {
+      "name": "Dryad",
+      "attacks": {
+        "om": "Club",
+        "tm": "Club with Shillelagh"
+      }
+    },
+    "Duergar": {
+      "name": "Duergar",
+      "attacks": {
+        "om": "War Pick",
+        "tm": "War Pick Enlarged",
+        "r": "Javelin ranged or melee",
+        "b": "Javelin melee Enlarged"
+      }
+    },
+    "AirElemental": {
+      "name": "Air Elemental",
+      "group": "Elementals",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam",
+        "aoe": "Whirlwind",
+        "aoec": "Character thrown into creature or wall from whirlwind"
+      }
+    },
+    "EarthElemental": {
+      "name": "Earth Elemental",
+      "group": "Elementals",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam"
+      }
+    },
+    "FireElemental": {
+      "name": "Fire Elemental",
+      "group": "Elementals",
+      "attacks": {
+        "om": "Touch",
+        "tm": "Touch",
+        "aoeb": "Fire Form",
+        "aoed": "Fire Form",
+        "aoec": "Fire Form"
+      }
+    },
+    "WaterElemental": {
+      "name": "Water Elemental",
+      "group": "Elementals",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam",
+        "aoed": "Whelm"
+      }
+    },
+    "Drow": {
+      "name": "Drow",
+      "attacks": {
+        "om": "Shortsword",
+        "tm": "Hand Crossbow"
+      }
+    },
+    "Ettercap": {
+      "name": "Ettercap",
+      "attacks": {
+        "om": "claws",
+        "tdta": "bite"
+      }
+    },
+    "Ettin": {
+      "name": "Ettin",
+      "attacks": {
+        "om": "Battleaxe",
+        "tm": "Morningstar"
+      }
+    },
+    "Shrieker": {
+      "name": "Shrieker",
+      "group": "Fungi",
+      "attacks": {
+        "tm": "This is pointless."
+      }
+    },
+    "VioletFungus": {
+      "name": "Violet Fungus",
+      "group": "Fungi",
+      "attacks": {
+        "om": "RottingTouch",
+        "b": "RottingTouch",
+        "r": "RottingTouch",
+        "tm": "RottingTouch"
+      }
+    },
+    "Gargoyle": {
+      "name": "Gargoyle",
+      "attacks": {
+        "om": "Bite",
+        "tm": "claws"
+      }
+    },
+    "Dao": {
+      "name": "Dao",
+      "group": "Genies",
+      "attacks": {
+        "om": "Fist",
+        "b": "Fist",
+        "r": "Maul",
+        "tm": "Maul"
+      }
+    },
+    "Djinni": {
+      "name": "Djinni",
+      "group": "Genies",
+      "attacks": {
+        "om": "Scimitar",
+        "tm": "Scimitar",
+        "b": "Scimitar"
+      }
+    },
+    "Efreeti": {
+      "name": "Efreeti",
+      "group": "Genies",
+      "attacks": {
+        "om": "Horns",
+        "b": "Bite",
+        "tdta": "Fire Breath",
+        "tdtb": "Claws"
+      }
+    },
+    "Ghost": {
+      "name": "Ghost",
+      "attacks": {
+        "tm": "Withering Touch"
+      }
+    },
+    "Ghoul": {
+      "name": "Ghoul",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Claws"
+      }
+    },
+    "CloudGiant": {
+      "name": "Cloud Giant",
+      "group": "Giants",
+      "attacks": {
+        "om": "Morningstar",
+        "tm": "Morningstar",
+        "b": "Rock"
+      }
+    },
+    "FireGiant": {
+      "name": "Fire Giant",
+      "group": "Giants",
+      "attacks": {
+        "om": "Morningstar",
+        "tm": "Morningstar",
+        "b": "Rock"
+      }
+    },
+    "FrostGiant": {
+      "name": "Frost Giant",
+      "group": "Giants",
+      "attacks": {
+        "om": "Greataxe",
+        "tm": "Greataxe",
+        "b": "Rock"
+      }
+    },
+    "HillGiant": {
+      "name": "Hill Giant",
+      "group": "Giants",
+      "attacks": {
+        "om": "Greatclub",
+        "tm": "Greatclub",
+        "b": "Rock"
+      }
+    },
+    "StoneGiant": {
+      "name": "Stone Giant",
+      "group": "Giants",
+      "attacks": {
+        "om": "Greatclub",
+        "tm": "Greatclub",
+        "b": "Rock"
+      }
+    },
+    "StormGiant": {
+      "name": "Storm Giant",
+      "group": "Giants",
+      "attacks": {
+        "om": "Greatsword",
+        "b": "Greatsword",
+        "aoe": "Lightning Strike",
+        "tm": "Rock"
+      }
+    },
+    "GibberingMouther": {
+      "name": "Gibbering Mouther",
+      "attacks": {
+        "tm": "Bites"
+      }
+    },
+    "Gnoll": {
+      "name": "Gnoll",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Bite",
+        "r": "Spear one-handed melee or ranged",
+        "b": "Spear two-handed melee",
+        "t": "Longbow",
+        "aoe": "Spear two-handed melee"
+      }
+    },
+    "DeepGnome": {
+      "name": "Deep Gnome",
+      "attacks": {
+        "om": "War Pick",
+        "tm": "Poisoned Dart"
+      }
+    },
+    "Goblin": {
+      "name": "Goblin",
+      "attacks": {
+        "om": "Scimitar",
+        "tm": "Shortbow"
+      }
+    },
+    "ClayGolem": {
+      "name": "Clay Golem",
+      "group": "Golems",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam"
+      }
+    },
+    "FleshGolem": {
+      "name": "Flesh Golem",
+      "group": "Golems",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam"
+      }
+    },
+    "IronGolem": {
+      "name": "Iron Golem",
+      "group": "Golems",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam",
+        "r": "Sword",
+        "t": "Sword",
+        "aoe": "Poison Breath"
+      }
+    },
+    "StoneGolem": {
+      "name": "Stone Golem",
+      "group": "Golems",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam"
+      }
+    },
+    "Gorgon": {
+      "name": "Gorgon",
+      "attacks": {
+        "om": "Gore",
+        "tm": "Hooves"
+      }
+    },
+    "Grick": {
+      "name": "Grick",
+      "attacks": {
+        "om": "Tentacles",
+        "tm": "Beak"
+      }
+    },
+    "Griffon": {
+      "name": "Griffon",
+      "attacks": {
+        "om": "Beak",
+        "tm": "Claws"
+      }
+    },
+    "Grimlock": {
+      "name": "Grimlock",
+      "attacks": {
+        "tdta": "SpikedBoneClub"
+      }
+    },
+    "GreenHag": {
+      "name": "Green Hag",
+      "group": "Hags",
+      "attacks": {
+        "om": "Claws"
+      }
+    },
+    "NightHag": {
+      "name": "Night Hag",
+      "group": "Hags",
+      "attacks": {
+        "om": "Claws"
+      }
+    },
+    "SeaHag": {
+      "name": "Sea Hag",
+      "group": "Hags",
+      "attacks": {
+        "om": "Claws"
+      }
+    },
+    "HalfRedDragonVeteran": {
+      "name": "Half Red Dragon Veteran",
+      "attacks": {
+        "om": "Longsword one-handed",
+        "tm": "Longsword one-handed",
+        "r": "Longsword two-handed",
+        "aoe": "Longsword two-handed",
+        "b": "Shortsword",
+        "tdtb": "Heavy Crossbow",
+        "aoeb": "Fire Breath"
+      }
+    },
+    "Harpy": {
+      "name": "Harpy",
+      "attacks": {
+        "om": "Claws",
+        "tm": "Club"
+      }
+    },
+    "Hellhound": {
+      "name": "Hellhound",
+      "attacks": {
+        "tdta": "Bite",
+        "aoe": "Fire Breath"
+      }
+    },
+    "Hippogriff": {
+      "name": "Hippogriff",
+      "attacks": {
+        "om": "Beak",
+        "tm": "Claws"
+      }
+    },
+    "Hobgoblin": {
+      "name": "Hobgoblin",
+      "attacks": {
+        "om": "Longsword one-handed",
+        "tm": "Longsword one-handed martial advantage",
+        "r": "Longsword two-handed",
+        "t": "Longbow",
+        "b": "Longsword two-handed"
+      }
+    },
+    "Homunculus": {
+      "name": "Homunculus",
+      "attacks": {
+        "tm": "Bite"
+      }
+    },
+    "Hydra": {
+      "name": "Hydra",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Bite",
+        "r": "Bite",
+        "b": "Bite",
+        "t": "Bite",
+        "aoe": "Bite",
+        "aoec": "Bite",
+        "aoed": "Bite",
+        "aoet": "Bite"
+      }
+    },
+    "InvisibleStalker": {
+      "name": "Invisible Stalker",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam"
+      }
+    },
+    "Kobold": {
+      "name": "Kobold",
+      "attacks": {
+        "om": "Dagger",
+        "tm": "Sling"
+      }
+    },
+    "Kraken": {
+      "name": "Kraken",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Tentacle",
+        "r": "Tentacle",
+        "tdta": "Tentacle",
+        "tdtb": "Tentacle",
+        "b": "Tentacle",
+        "t": "Tentacle",
+        "aoe": "Lightning Storm",
+        "aoed": "Lightning Storm",
+        "aoeb": "Ink Cloud",
+        "aoec": "Swallow"
+      }
+    },
+    "Lamia": {
+      "name": "Lamia",
+      "attacks": {
+        "om": "Claws",
+        "tm": "Dagger",
+        "aoe": "Intoxicating Touch"
+      }
+    },
+    "Lich": {
+      "name": "Lich",
+      "attacks": {
+        "om": "Paralyzing Touch",
+        "tm": "Paralyzing Touch",
+        "aoe": "Disrupt Life"
+      }
+    },
+    "LizardFolk": {
+      "name": "Lizardfolk",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Heavy Club",
+        "r": "Javelin Melee or Ranged",
+        "b": "Spiked Shield"
+      }
+    },
+    "Werebear": {
+      "name": "Werebear",
+      "group": "Lycanthropes",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claw",
+        "r": "Claw",
+        "b": "Greataxe"
+      }
+    },
+    "Wereboar": {
+      "name": "Wereboar",
+      "group": "Lycanthropes",
+      "attacks": {
+        "om": "Maul",
+        "tm": "Maul",
+        "r": "Tusks",
+        "b": "Tusks Charge"
+      }
+    },
+    "Wererat": {
+      "name": "Wererat",
+      "group": "Lycanthropes",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Shortsword",
+        "r": "Shortsword",
+        "b": "Hand Crossbow"
+      }
+    },
+    "Weretiger": {
+      "name": "Weretiger",
+      "group": "Lycanthropes",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Scimitar",
+        "r": "Scimitar",
+        "b": "Claw",
+        "t": "Longbow",
+        "aoe": "Claw",
+        "aoeb": "Longbow"
+      }
+    },
+    "Werewolf": {
+      "name": "Werewolf",
+      "group": "Lycanthropes",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claws",
+        "r": "Spear one-handed melee or ranged",
+        "b": "Spear two-handed melee"
+      }
+    },
+    "Magmin": {
+      "name": "Magmin",
+      "attacks": {
+        "om": "Touch",
+        "aoe": "Death Burst",
+        "r": "Continuous fire damage from touch",
+        "t": "Continuous fire damage from touch",
+        "aoec": "Continuous fire damage from touch"
+      }
+    },
+    "Manticore": {
+      "name": "Manticore",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claw",
+        "r": "Claw",
+        "b": "Tail Spike",
+        "t": "Tail Spike",
+        "aoe": "Morningstar Melee Surprise"
+      }
+    },
+    "Medusa": {
+      "name": "Medusa",
+      "attacks": {
+        "om": "Shortsword",
+        "tm": "Shortsword"
+      }
+    },
+    "DustMephit": {
+      "name": "Dust Mephit",
+      "group": "Mephits",
+      "attacks": {
+        "tm": "Claw"
+      }
+    },
+    "IceMephit": {
+      "name": "Ice Mephit",
+      "group": "Mephits",
+      "attacks": {
+        "aoeb": "Death Burst",
+        "aoe": "Frost Breath",
+        "b": "Bite"
+      }
+    },
+    "MagmaMephit": {
+      "name": "Magma Mephit",
+      "group": "Mephits",
+      "attacks": {
+        "aoeb": "Death Burst",
+        "aoe": "Fire Breath",
+        "b": "Bite"
+      }
+    },
+    "SteamMephit": {
+      "name": "Steam Mephit",
+      "group": "Mephits",
+      "attacks": {
+        "tm": "Claws"
+      }
+    },
+    "Merfolk": {
+      "name": "Merfolk",
+      "attacks": {
+        "om": "Spear one-handed ranged or melee",
+        "tm": "Spear two-Handed"
+      }
+    },
+    "Merrow": {
+      "name": "Merrow",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claws",
+        "r": "Harpoon"
+      }
+    },
+    "Mimic": {
+      "name": "Mimic",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Pseudopod"
+      }
+    },
+    "Minotaur": {
+      "name": "Minotaur",
+      "attacks": {
+        "om": "Greataxe",
+        "tm": "Gore",
+        "r": "Gore Charge",
+        "Minotaur20r": "Gore Charge"
+      }
+    },
+    "Mummy": {
+      "name": "Mummy",
+      "attacks": {
+        "tdta": "Rotting Fist"
+      }
+    },
+    "MummyLord": {
+      "name": "MummyLord",
+      "attacks": {
+        "tdta": "Rotting Fist",
+        "tdtb": "Rotting Fist",
+        "r": "Rotting Fist",
+        "b": "Rotting Fist"
+      }
+    },
+    "SpiritNaga": {
+      "name": "Spirit Naga",
+      "group": "Naga",
+      "attacks": {
+        "pc": "Bite"
+      }
+    },
+    "GuardianNaga": {
+      "name": "Guardian Naga",
+      "group": "Naga",
+      "attacks": {
+        "pc": "Bite",
+        "aoe": "Spit Poison"
+      }
+    },
+    "Nightmare": {
+      "name": "Nightmare",
+      "attacks": {
+        "pc": "Bite"
+      }
+    },
+    "Ogre": {
+      "name": "Ogre",
+      "attacks": {
+        "om": "Greatclub",
+        "tm": "Javelin"
+      }
+    },
+    "Oni": {
+      "name": "Oni",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Glaive",
+        "b": "Glaive",
+        "t": "Glaive in medium or small size",
+        "aoe": "Glaive in medium or small size"
+      }
+    },
+    "BlackPudding": {
+      "name": "Black Pudding",
+      "group": "Oozes",
+      "attacks": {
+        "tdta": "Pseudopod",
+        "aoec": "Corrosive Form",
+        "r": "Corrosive Form",
+        "b": "Corrosive Form",
+        "t": "Corrosive Form",
+        "aoe": "Corrosive Form"
+      }
+    },
+    "GrayOoze": {
+      "name": "Gray Ooze",
+      "group": "Oozes",
+      "attacks": {
+        "tdta": "Pseudopod"
+      }
+    },
+    "OchreJelly": {
+      "name": "Ochre Jelly",
+      "group": "Oozes",
+      "attacks": {
+        "tdta": "Pseudopod"
+      }
+    },
+    "Orc": {
+      "name": "Orc",
+      "attacks": {
+        "om": "Greataxe",
+        "tm": "Javelin"
+      }
+    },
+    "Otyugh": {
+      "name": "Otyugh",
+      "attacks": {
+        "aoed": "Tentacle Slam",
+        "tdta": "Tentacle",
+        "b": "Bite"
+      }
+    },
+    "Owlbear": {
+      "name": "Owlbear",
+      "attacks": {
+        "om": "Beak",
+        "tm": "Claws"
+      }
+    },
+    "Pegasus": {
+      "name": "Pegasus",
+      "attacks": {
+        "tm": "Hooves"
+      }
+    },
+    "Pseudodragon": {
+      "name": "Pseudodragon",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Sting"
+      }
+    },
+    "PurpleWorm": {
+      "name": "Purple Worm",
+      "attacks": {
+        "aoe": "Swallowed Damage",
+        "pc": "Tail Stinger",
+        "b": "Bite initial"
+      }
+    },
+    "Rakshasa": {
+      "name": "Rakshasa",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw"
+      }
+    },
+    "Remorhaz": {
+      "name": "Remorhaz",
+      "attacks": {
+        "aoec": "Heated Body",
+        "tm": "Heated Body",
+        "r": "Heated Body",
+        "aoe": "Swallow damage at start of turn",
+        "tdta": "Bite"
+      }
+    },
+    "Roc": {
+      "name": "Roc",
+      "attacks": {
+        "om": "Beak",
+        "tm": "Talons"
+      }
+    },
+    "Roper": {
+      "name": "Roper",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Tendrils",
+        "r": "Tendrils",
+        "t": "Tendrils",
+        "aoec": "Tendrils"
+      }
+    },
+    "RustMonster": {
+      "name": "Rust Monster",
+      "attacks": {
+        "tm": "Bite"
+      }
+    },
+    "Sahuagin": {
+      "name": "Sahuagin",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claws",
+        "r": "Spear one-handed ranged or melee",
+        "b": "Spear two-handed melee"
+      }
+    },
+    "Salamander": {
+      "name": "Salamander",
+      "attacks": {
+        "om": "Heated Body",
+        "tm": "Heated Body",
+        "r": "Heated Body",
+        "tdta": "Spear one-handed ranged or melee",
+        "aoe": "Spear one-handed ranged or melee",
+        "tdtb": "Spear two-handed melee",
+        "aoeb": "Spear two-handed melee"
+      }
+    },
+    "Shadow": {
+      "name": "Shadow",
+      "attacks": {
+        "tm": "Strength Drain"
+      }
+    },
+    "ShamblingMound": {
+      "name": "Shambling Mound",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam",
+        "aoed": "Engulf"
+      }
+    },
+    "ShieldGuardian": {
+      "name": "Shield Guardian",
+      "attacks": {
+        "om": "Fist",
+        "tm": "Fist"
+      }
+    },
+    "Skeleton": {
+      "name": "Skeleton",
+      "attacks": {
+        "om": "Shortsword",
+        "tm": "Shortbow"
+      }
+    },
+    "MinotaurSkeleton": {
+      "name": "Minotaur Skeleton",
+      "attacks": {
+        "om": "Greataxe",
+        "tm": "Gore",
+        "r": "Gore Charge"
+      }
+    },
+    "WarhorseSkeleton": {
+      "name": "Warhorse Skeleton",
+      "attacks": {
+        "tm": "Hooves"
+      }
+    },
+    "Specter": {
+      "name": "Specter",
+      "attacks": {
+        "tm": "Life Drain"
+      }
+    },
+    "Androsphinx": {
+      "name": "Androsphinx",
+      "group": "Sphinxes",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Claw",
+        "b": "Claw",
+        "t": "Claw",
+        "aoe": "Third Roar",
+        "aoet": "Flame Strike"
+      }
+    },
+    "Gynosphinx": {
+      "name": "Gynosphinx",
+      "group": "Sphinxes",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Claw",
+        "t": "Claw",
+        "aoec": "Claw"
+      }
+    },
+    "Sprite": {
+      "name": "Sprite",
+      "attacks": {
+        "om": "Longsword",
+        "tm": "Shortbow"
+      }
+    },
+    "Stirge": {
+      "name": "Stirge",
+      "attacks": {
+        "om": "Blood Drain",
+        "aoec": "Blood Drain once attached"
+      }
+    },
+    "SuccubusOrIncubus": {
+      "name": "Succubus or Incubus",
+      "attacks": {
+        "om": "Claw",
+        "aoe": "Draining Kiss"
+      }
+    },
+    "Tarrasque": {
+      "name": "Tarrasque",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claw",
+        "r": "Horns",
+        "b": "Tail",
+        "t": "Bite",
+        "aoe": "Bite",
+        "aoeb": "Bite",
+        "aoet": "Bite",
+        "aoed": "Claw",
+        "tdta": "Claw",
+        "tdtb": "Claw",
+        "pc": "Claw",
+        "aoec": "Swallow"
+      }
+    },
+    "Treant": {
+      "name": "Treant",
+      "attacks": {
+        "om": "Slam",
+        "tm": "Slam",
+        "b": "Rock"
+      }
+    },
+    "Troll": {
+      "name": "Troll",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "b": "Bite"
+      }
+    },
+    "Unicorn": {
+      "name": "Unicorn",
+      "attacks": {
+        "om": "Horn",
+        "tm": "Hooves",
+        "r": "Hooves",
+        "b": "Hooves",
+        "t": "Hooves",
+        "h": "Healing Touch/Self Heal"
+      }
+    },
+    "Vampire": {
+      "name": "Vampire",
+      "attacks": {
+        "om": "Unarmed Strike",
+        "tm": "Unarmed Strike",
+        "r": "Javelin Ranged no Surprise",
+        "b": "Unarmed Strike",
+        "tdta": "Bite",
+        "tdtb": "Bite"
+      }
+    },
+    "VampireSpawn": {
+      "name": "Vampire Spawn",
+      "attacks": {
+        "tdta": "Bite",
+        "om": "Claws"
+      }
+    },
+    "WaterWeird": {
+      "name": "Water Weird",
+      "attacks": {
+        "tm": "Constrict"
+      }
+    },
+    "Wight": {
+      "name": "Wight",
+      "attacks": {
+        "om": "Life Drain",
+        "tm": "Longbow",
+        "r": "Longbow",
+        "b": "Longsword one-handed",
+        "aoe": "Longsword one-handed",
+        "t": "Longsword two-handed",
+        "aoeb": "Longsword two-handed"
+      }
+    },
+    "WillOWisp": {
+      "name": "Will o' Wisp",
+      "attacks": {
+        "tm": "Shock"
+      }
+    },
+    "Wraith": {
+      "name": "Wraith",
+      "attacks": {
+        "om": "Life Drain",
+        "aoec": "Incorporeal Movement"
+      }
+    },
+    "Wyvern": {
+      "name": "Wyvern",
+      "attacks": {
+        "om": "Bite",
+        "tm": "Claws",
+        "pc": "Stinger"
+      }
+    },
+    "Xorn": {
+      "name": "Xorn",
+      "attacks": {
+        "om": "Claw",
+        "tm": "Claw",
+        "r": "Claw",
+        "b": "Bite"
+      }
+    },
+    "Zombie": {
+      "name": "Zombie",
+      "group": "Zombies",
+      "attacks": {
+        "tm": "Slam"
+      }
+    },
+    "OgreZombie": {
+      "name": "Ogre Zombie",
+      "group": "Zombies",
+      "attacks": {
+        "tm": "Morningstar"
+      }
+    }
+  }
+}
