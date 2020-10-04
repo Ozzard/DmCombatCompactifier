@@ -1,0 +1,1620 @@
+{
+  "Aarakocra": {
+    "om": [ "javelin melee", " Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "talons", " Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "javelin ranged", " Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "javelin melee dive", " Piercing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "talons melee dive", "slashing", 4, 4, 6, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Aboleth": {
+    "om": [ "tentacle", "Bludgeoning", 9, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "tentacle", "Bludgeoning", 9, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "r": [ "tentacle", "Bludgeoning", 9, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "t": [ "tail", "Bludgeoning", 9, 6, 6, 6, 0, 0, 0, 0, 0, 5 ],
+    "aoec": [ "Psychic Drain", "Psychic", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Deva": {
+    "tdta": [ "mace", "Bludgeoning", 8, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Radiant", 8, 8, 8, 8, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "mace", "Bludgeoning", 8, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Radiant", 8, 8, 8, 8, 0, 0, 0, 0, 0 ],
+    "h": [ "Healing Touch", 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Planetar": {
+    "tdta": [ "greatsword", "Slashing", 12, 6, 6, 6, 6, 0, 0, 0, 0, 7, "Radiant", 8, 8, 8, 8, 8, 0, 0, 0, 0 ],
+    "tdtb": [ "greatsword", "Slashing", 12, 6, 6, 6, 6, 0, 0, 0, 0, 7, "Radiant", 8, 8, 8, 8, 8, 0, 0, 0, 0 ],
+    "h": [ "Healing Touch", 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Solar": {
+    "tdta": [ "greatsword", " Slashing", 15, 6, 6, 6, 6, 0, 0, 0, 0, 8, "Radiant", 8, 8, 8, 8, 8, 8, 0, 0, 0 ],
+    "tdtb": [ "slaying longbow", "Piercing", 13, 8, 8, 0, 0, 0, 0, 0, 0, 6, "Radiant", 8, 8, 8, 8, 8, 8, 0, 0, 0 ],
+    "h": [ "Healing Touch", 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoett": [ "Searing Burst", "Fire", 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, " Radiant", 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AnimatedArmor": {
+    "tm": [ "slam", "Bludgeoning", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "FlyingSword": {
+    "tm": [ " longsword", " Slashing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "RugOfSmothering": {
+    "tm": [ "smother", "Bludgeoning", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Ankheg": {
+    "aoe": [ "Acid spray", " Acid", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "Bite", "Slashing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3, "Acid", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Azer": {
+    "aoe": [ "Heated Body", "Fire", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Heated Body", "Fire", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Heated Body", "Fire", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "Warhammer one-handed", "Bludgeoning", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "Warhammer two-handed", "Bludgeoning", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Banshee": {
+    "om": [ "corrupting touch", "necrotic", 4, 6, 6, 6, 0, 0, 0, 0, 0, 2 ],
+    "aoe": [ "Wail", "Psychic", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Basilisk": {
+    "tdta": [ "Bite", "Piercing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Behir": {
+    "b": [ "bite", "Piercing", 10, 10, 10, 10, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Lightning breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "constrict", "Bludgeoning", 10, 10, 10, 0, 0, 0, 0, 0, 0, 6, "Slashing", 10, 10, 0, 0, 0, 0, 0, 0, 6 ]
+  },
+  "Beholder": {
+    "b": [ "bite", "Piercing", 5, 6, 6, 6, 6, 0, 0, 0, 0, 0 ],
+    "aoe": [ "Enervation ray", "Necrotic", 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Disintegration Ray", "Force", 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "DeathTyrant": {
+    "b": [ "bite", "Piercing", 5, 6, 6, 6, 6, 0, 0, 0, 0, 0 ],
+    "aoe": [ "Enervation ray", "Necrotic", 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Disintegration Ray", "Force", 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Spectator": {
+    "b": [ "Bite", "     ", 1, 6, 0, 0, 0, 0, 0, 0, 0, -1 ],
+    "aoe": [ "Wounding Ray", "Necrotic", 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "TwigBlight": {
+    "tm": [ "claws", "Piercing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "VineBlight": {
+    "tm": [ "constrict", "Bludgeoning", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Bugbear": {
+    "om": [ "javelin melee no surprise", "Piercing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "morningstar no surprise", "Piercing", 4, 8, 8, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "javelin ranged no surprise", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "javelin melee surprise", "Piercing", 4, 6, 6, 6, 6, 0, 0, 0, 0, 2 ],
+    "t": [ "javelin ranged surprise", "Piercing", 4, 6, 6, 6, 0, 0, 0, 0, 0, 2 ]
+  },
+  "BugbearChief": {
+    "om": [ "javelin melee no surprise", "Piercing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "morningstar no surprise", "Piercing", 4, 8, 8, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "javelin ranged no surprise", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "javelin melee surprise", "Piercing", 4, 6, 6, 6, 6, 0, 0, 0, 0, 3 ],
+    "t": [ "javelin ranged surprise", "Piercing", 4, 6, 6, 6, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Bulette": {
+    "b": [ "bite", "Piercing", 7, 12, 12, 12, 12, 0, 0, 0, 0, 4 ],
+    "aoett": [ "Deadly Leap", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, "Slashing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Bullywug": {
+    "om": [ "spear one-handed ranged or melee", "Piercing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "spear two-handed melee", "Piercing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "b": [ "bite", "Bludgeoning", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "CarrionCrawler": {
+    "om": [ "tentacles", "Poison", 8, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "bite", "Piercing", 4, 4, 4, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Centaur": {
+    "om": [ "pike", "Piercing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "pike charge", "Piercing", 6, 10, 6, 6, 6, 0, 0, 0, 0, 4 ],
+    "r": [ "hooves", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "longbow", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "longbow", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Chimera": {
+    "om": [ "horns", "Bludgeoning", 7, 12, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claws", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "bite", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Fire breath", "Fire", 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Chuul": {
+    "om": [ "pincer", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "pincer", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Cloaker": {
+    "b": [ "bite", "Piercing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "tail", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Cockatrice": {
+    "b": [ "bite", "piercing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Couatl": {
+    "om": [ "constrict", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "bite", "Piercing", 8, 6, 0, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "CrawlingClaw": {
+    "om": [ "claw", "Bludgeoning or slashing (your choice)", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Cyclops": {
+    "om": [ "greatclub", "Bludgeoning", 9, 8, 8, 8, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "greatclub", "Bludgeoning", 9, 8, 8, 8, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "rock", "Bludgeoning", 9, 10, 10, 10, 10, 0, 0, 0, 0, 6 ]
+  },
+  "Darkmantle": {
+    "tm": [ "crush", "Bludgeoning", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "DeathKnight": {
+    "tdta": [ "longsword one-hand", "Slashing", 11, 8, 0, 0, 0, 0, 0, 0, 0, 5, "Necrotic", 8, 8, 8, 8, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "longsword two-hands", "Slashing", 11, 10, 0, 0, 0, 0, 0, 0, 0, 5, "Necrotic", 8, 8, 8, 8, 0, 0, 0, 0, 0 ],
+    "aoett": [ "Hellfire orb", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, "Necrotic", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Demilich": {
+    "aoed": [ "Life Drain", "Necrotic", 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Balor": {
+    "aoe": [ "Death Throes", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "longsword", "Slashing", 14, 8, 8, 8, 0, 0, 0, 0, 0, 8, "lightning", 8, 8, 8, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "whip", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8, "Fire", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Barlgura": {
+    "om": [ "fist", "Bludgeoning", 7, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "fist", "Bludgeoning", 7, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "bite", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Chasme": {
+    "tdta": [ "proboscis", "Piercing", 5, 6, 6, 6, 6, 0, 0, 0, 0, 2, "necrotic", 6, 6, 6, 6, 6, 6, 6, 0, 0 ]
+  },
+  "Dretch": {
+    "tm": [ "claws", "Slashing", 2, 4, 4, 0, 0, 0, 0, 0, 0, 0 ],
+    "b": [ "bite", "Piercing", 2, 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Glabrezu": {
+    "om": [ "pincer", "Bludgeoning", 9, 10, 10, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "pincer", "Bludgeoning", 9, 10, 10, 0, 0, 0, 0, 0, 0, 5 ],
+    "r": [ "fist", "Bludgeoning", 9, 4, 4, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "fist", "Bludgeoning", 9, 4, 4, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Goristro": {
+    "om": [ "fist", "Bludgeoning", 13, 8, 8, 8, 0, 0, 0, 0, 0, 7 ],
+    "tm": [ "fist", "Bludgeoning", 13, 8, 8, 8, 0, 0, 0, 0, 0, 7 ],
+    "r": [ "hoof", "Bludgeoning", 13, 10, 10, 10, 0, 0, 0, 0, 0, 7 ],
+    "b": [ "gore", "Piercing", 13, 10, 10, 10, 10, 10, 10, 10, 0, 7 ],
+    "tdta": [ "gore charge", "Gore piercing", 13, 10, 10, 10, 10, 10, 10, 10, 0, 7, "Charge piercing", 10, 10, 10, 10, 10, 10, 10, 0, 0 ]
+  },
+  "Hezrou": {
+    "om": [ "claws", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claws", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "claws", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "bite", "Piercing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Manes": {
+    "om": [ "claws", "Slashing", 2, 4, 4, 0, 0, 0, 0, 0, 0, 0, "claws", "Slashing", 2, 4, 4, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Marilith": {
+    "om": [ "tail", "Bludgeoning", 9, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "longsword", "Slashing", 9, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "longsword", "Slashing", 9, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "longsword", "Slashing", 9, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "longsword", "Slashing", 9, 8, 8, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Nalfeshnee": {
+    "om": [ "claw", "Slashing", 10, 6, 6, 6, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "claw", "Slashing", 10, 6, 6, 6, 0, 0, 0, 0, 0, 5 ],
+    "b": [ "bite", "Piercing", 10, 10, 10, 10, 10, 10, 0, 0, 0, 5 ]
+  },
+  "Quasit": {
+    "p": [ "claws/bite", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 3, "Poison", 1000, 4, 4, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "ShadowDemon": {
+    "om": [ "claws", "Psychic", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claws (with advantage damage)", "Psychic", 5, 6, 6, 6, 6, 0, 0, 0, 0, 3 ],
+    "b": [ "claws", "Psychic", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Vrock": {
+    "om": [ "beak", "Piercing", 6, 6, 6, 6, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "talons", "Slashing", 6, 10, 10, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "beak", "Piercing", 6, 6, 6, 6, 0, 0, 0, 0, 0, 3 ],
+    "aoe": [ "spores", "poison", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Spores", "Poison", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Yochlol": {
+    "tdta": [ "slam", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 6, 6, 6, 6, 6, 0, 0, 0 ],
+    "tdtb": [ "slam", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 6, 6, 6, 6, 6, 0, 0, 0 ]
+  },
+  "BarbedDevil": {
+    "om": [ "claw", "Piercing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claw", "Piercing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "tail", "Piercing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "hurl flame", "Fire", 5, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "t": [ "hurl flame", "Fire", 5, 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "BeardedDevil": {
+    "om": [ "beard", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ ".    ", "     ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "glaive", "Slashing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3, "(if fail saving throw at start of their turn)", "(no specified damage type)", 10, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "BoneDevil": {
+    "om": [ "claws", "Slashing", 8, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claws", "Slashing", 8, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tdta": [ "sting", "Piercing", 8, 8, 8, 0, 0, 0, 0, 0, 0, 4, "Poison", 6, 6, 6, 6, 6, 0, 0, 0, 0 ]
+  },
+  "ChainDevil": {
+    "om": [ "chain", "Slashing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "chain", "Slashing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "chain", "Slashing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "chain", "Slashing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "chain", "Slashing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "damage If grappled", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Damage if grappled", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Erinyes": {
+    "tdta": [ "longsword one-handed", "Slashing", 8, 8, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 8, 8, 8, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "longsword two-handed", "Slashing", 8, 10, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 8, 8, 8, 0, 0, 0, 0, 0, 0 ]
+  },
+  "HornedDevil": {
+    "om": [ "fork", "Piercing", 10, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "fork", "Piercing", 10, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "tail (doesn't account for infernal wounds)", "piercing", 10, 8, 0, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "hurl flame", "Fire", 7, 6, 6, 6, 6, 0, 0, 0, 0, 0 ],
+    "t": [ "hurl flame", "Fire", 7, 6, 6, 6, 6, 0, 0, 0, 0, 0 ]
+  },
+  "IceDevil": {
+    "aoe": [ "Wall of ice initial", "Cold", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Wall of ice when player moves through", "Cold", 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 5, "Cold", 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "claws", "Slashing", 10, 4, 4, 0, 0, 0, 0, 0, 0, 5, "Cold", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Imp": {
+    "p": [ "sting (bite in beast form)", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3, "Poison", 2, 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Lemure": {
+    "om": [ "fist", "Bludgeoning", 3, 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "PitFiend": {
+    "om": [ "claw", "Slashing", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "tail", "Bludgeoning", 14, 10, 10, 0, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "bite", "Piercing", 14, 6, 6, 6, 6, 0, 0, 0, 0, 8 ],
+    "t": [ "claw", "Slashing", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Fireball", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Wall of Fire", "Fire", 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Poison at start of player's turn from bite", "Poison", 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "mace", "Bludgeoning", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8, "Fire", 6, 6, 6, 6, 6, 6, 0, 0, 0 ]
+  },
+  "SpinedDevil": {
+    "om": [ "bite", "Slashing", 2, 4, 4, 0, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "fork", "Piercing", 2, 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "r": [ "   ", ".  ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "tail spine", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "tail spine", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Allosaurus": {
+    "om": [ "bite", "Piercing", 6, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "bite", "Piercing", 6, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "claw", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "claw", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Ankylosaurus": {
+    "om": [ "tail", "Bludgeoning", 7, 6, 6, 6, 6, 0, 0, 0, 0, 4 ],
+    "tm": [ "tail", "Bludgeoning", 7, 6, 6, 6, 6, 0, 0, 0, 0, 4 ]
+  },
+  "Plesiosaurus": {
+    "om": [ "bite", "Piercing", 6, 6, 6, 6, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "bite", "Piercing", 6, 6, 6, 6, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Pteranodon": {
+    "om": [ "bite", "Piercing", 3, 4, 4, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "bite", "Piercing", 3, 4, 4, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Triceratops": {
+    "om": [ "Gore", "Piercing", 9, 8, 8, 8, 8, 0, 0, 0, 0, 6 ],
+    "tm": [ "Gore", "Piercing", 9, 8, 8, 8, 8, 0, 0, 0, 0, 6 ],
+    "r": [ "Stomp", "Bludgeoning", 9, 10, 10, 10, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "Stomp", "Bludgeoning", 9, 10, 10, 10, 0, 0, 0, 0, 0, 6 ]
+  },
+  "TyrannosaurusRex": {
+    "om": [ "bite", "Piercing", 10, 12, 12, 12, 12, 0, 0, 0, 0, 7 ],
+    "tm": [ "tail", "Bludgeoning", 10, 8, 8, 8, 0, 0, 0, 0, 0, 7 ],
+    "b": [ "bite", "Piercing", 10, 12, 12, 12, 12, 0, 0, 0, 0, 7 ]
+  },
+  "DisplacerBeast": {
+    "tdta": [ "tentacle", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Piercing", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "tentacle", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Piercing", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Doppelganger": {
+    "om": [ "slam", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "slam", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "slam surprise", "Bludgeoning", 6, 6, 6, 6, 6, 0, 0, 0, 0, 4 ],
+    "b": [ "slam surprise", "Bludgeoning", 6, 6, 6, 6, 6, 0, 0, 0, 0, 4 ],
+    "tdta": [ "slam suprise", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Suprise", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AdultBlueDracolich": {
+    "om": [ "claw", "Slashing", 12, 6, 6, 0, 0, 0, 0, 0, 0, 7 ],
+    "tm": [ "claw", "Slashing", 12, 6, 6, 0, 0, 0, 0, 0, 0, 7 ],
+    "r": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "b": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "t": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "aoe": [ "Lightning breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7 ],
+    "tdta": [ "bite", "Piercing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 7, "Lightning", 10, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YoungRedShadowDragon": {
+    "om": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Shadow Breath", "Necrotic", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 10, 10, 10, 0, 0, 0, 0, 0, 0, 6, "Necrotic", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientBlackDragon": {
+    "om": [ "claw", "Slashing", 15, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 15, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Acid Breath", "Acid", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoed": [ "wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ],
+    "tdta": [ "bite", "Piercing", 15, 10, 10, 0, 0, 0, 0, 0, 0, 8, "Acid", 8, 8, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AdultBlackDragon": {
+    "om": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Acid Breath", "Acid", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6 ],
+    "tdta": [ "Bite", "Piercing", 11, 10, 10, 0, 0, 0, 0, 0, 0, 6, "Acid", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YoungBlackDragon": {
+    "om": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Acid breath", "Acid", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "   ", "", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4, "Acid", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "BlackDragonWyrmling": {
+    "aoe": [ "Acid breath", "Acid", 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2, "Acid", 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientBlueDragon": {
+    "om": [ "claw", "Slashing", 16, 6, 6, 0, 0, 0, 0, 0, 0, 9 ],
+    "tm": [ "claw", "Slashing", 16, 6, 6, 0, 0, 0, 0, 0, 0, 9 ],
+    "r": [ "tail", "Bludgeoning", 16, 8, 8, 0, 0, 0, 0, 0, 0, 9 ],
+    "b": [ "tail", "Bludgeoning", 16, 8, 8, 0, 0, 0, 0, 0, 0, 9 ],
+    "t": [ "tail", "Bludgeoning", 16, 8, 8, 0, 0, 0, 0, 0, 0, 9 ],
+    "aoe": [ "Lightning Breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9 ],
+    "tdta": [ "bite", "Piercing", 16, 10, 10, 0, 0, 0, 0, 0, 0, 9, "Lightning", 10, 10, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AdultBlueDragon": {
+    "om": [ "claw", "Slashing", 12, 6, 6, 0, 0, 0, 0, 0, 0, 7 ],
+    "tm": [ "claw", "Slashing", 12, 6, 6, 0, 0, 0, 0, 0, 0, 7 ],
+    "r": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "b": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "t": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "aoe": [ "Lightning Breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7 ],
+    "tdta": [ "bite", "Piercing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 7, "Lightning", 10, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YoungBlueDragon": {
+    "om": [ "claw", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "claw", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "aoe": [ "Lightning breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 9, 10, 10, 0, 0, 0, 0, 0, 0, 5, "Lightning", 10, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "BlueDragonWyrmling": {
+    "aoe": [ "Lightning breath", "Lightning", 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3, "Lightning", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientGreenDragon": {
+    "om": [ "claw", "Slashing", 15, 6, 6, 6, 6, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 15, 6, 6, 6, 6, 0, 0, 0, 0, 8 ],
+    "r": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Poison breath", "Poison", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ],
+    "tdta": [ "bite", "Piercing", 15, 10, 10, 0, 0, 0, 0, 0, 0, 8, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AdultGreenDragon": {
+    "om": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Poison Breath", "Poison", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6 ],
+    "tdta": [ "bite", "Piercing", 11, 10, 10, 0, 0, 0, 0, 0, 0, 6, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YoungGreenDragon": {
+    "om": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Poison Breath", "Poison", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GreenDragonWyrmling": {
+    "aoe": [ "Poison Breath", "Poison", 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientRedDragon": {
+    "om": [ "claw", "Slashing", 17, 6, 6, 0, 0, 0, 0, 0, 0, 10 ],
+    "tm": [ "claw", "Slashing", 17, 6, 6, 0, 0, 0, 0, 0, 0, 10 ],
+    "r": [ "tail", "Bludgeoning", 17, 8, 8, 0, 0, 0, 0, 0, 0, 10 ],
+    "b": [ "tail", "Bludgeoning", 17, 8, 8, 0, 0, 0, 0, 0, 0, 10 ],
+    "t": [ "tail", "Bludgeoning", 17, 8, 8, 0, 0, 0, 0, 0, 0, 10 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10 ],
+    "tdta": [ "bite", "Piercing", 17, 10, 10, 0, 0, 0, 0, 0, 0, 10, "Fire", 6, 6, 6, 6, 0, 0, 0, 0, 0 ]
+  },
+  "AdultRedDragon": {
+    "om": [ "claw", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ],
+    "tdta": [ "bite", "Piercing", 14, 10, 10, 0, 0, 0, 0, 0, 0, 8, "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YoungRedDragon": {
+    "om": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 10, 10, 10, 0, 0, 0, 0, 0, 0, 6, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "RedDragonWyrmling": {
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientWhiteDragon": {
+    "om": [ "claw", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ " Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ],
+    "tdta": [ "bite", "Piercing", 14, 10, 10, 0, 0, 0, 0, 0, 0, 8, "Cold", 8, 8, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AdultWhiteDragon": {
+    "om": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Cold breath", "Cold", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6 ],
+    "tdta": [ "Bite", "Piercing", 11, 10, 10, 0, 0, 0, 0, 0, 0, 6, "Cold", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YoungWhiteDragon": {
+    "om": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4, "Cold", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "WhiteDragonWyrmling": {
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2, "Cold", 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientBrassDragon": {
+    "om": [ "claw", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "r": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "bite", "Piercing", 14, 10, 10, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ],
+    "tdta": [ "bite", "Piercing", 14, 10, 10, 0, 0, 0, 0, 0, 0, 8, "     ", 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AdultBrassDragon": {
+    "om": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "bite", "Piercing", 11, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6 ]
+  },
+  "YoungBrassDragon": {
+    "om": [ "claw", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "bite", "Piercing", 9, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "bite", "Piercing", 9, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "BrassDragonWyrmling": {
+    "om": [ "Bite", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientBronzeDragon": {
+    "om": [ "claw", "Slashing", 16, 6, 6, 0, 0, 0, 0, 0, 0, 9 ],
+    "tm": [ "claw", "Slashing", 16, 6, 6, 0, 0, 0, 0, 0, 0, 9 ],
+    "r": [ "tail", "Bludgeoning", 16, 8, 8, 0, 0, 0, 0, 0, 0, 9 ],
+    "b": [ "tail", "Bludgeoning", 16, 8, 8, 0, 0, 0, 0, 0, 0, 9 ],
+    "t": [ "bite", "Piercing", 16, 10, 10, 0, 0, 0, 0, 0, 0, 9 ],
+    "aoe": [ "Lightning Breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9 ],
+    "tdta": [ ".   ", "     ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, "     ", 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AdultBronzeDragon": {
+    "om": [ "claw", "Slashing", 12, 6, 6, 0, 0, 0, 0, 0, 0, 7 ],
+    "tm": [ "claw", "Slashing", 12, 6, 6, 0, 0, 0, 0, 0, 0, 7 ],
+    "r": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "b": [ "tail", "Bludgeoning", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "t": [ "Bite", "Piercing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 7 ],
+    "aoe": [ "Lightning Breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7 ]
+  },
+  "YoungBronzeDragon": {
+    "om": [ "claw", "Slashing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "claw", "Slashing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "b": [ "bite", "Piercing", 8, 10, 10, 0, 0, 0, 0, 0, 0, 5 ],
+    "t": [ "bite", "Piercing", 8, 10, 10, 0, 0, 0, 0, 0, 0, 5 ],
+    "aoe": [ "Lightning Breath", "Lightning", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "BronzeDragonWyrmling": {
+    "om": [ "bite", "Piercing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "bite", "Piercing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "aoe": [ "Lightning Breath", "Lightning", 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientCopperDragon": {
+    "om": [ "claw", "Slashing", 15, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 15, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 15, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "bite", "Piercing", 15, 10, 10, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Acid Breath", "Acid", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ]
+  },
+  "AdultCopperDragon": {
+    "om": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "tail", "Bludgeoning", 11, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "bite", "Piercing", 11, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Acid Breath", "Acid", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6 ]
+  },
+  "YoungCopperDragon": {
+    "om": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "bite", "Piercing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "bite", "Piercing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Acid Breath", "Acid", 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "CopperDragonWyrmling": {
+    "om": [ "bite", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "bite", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "aoe": [ "Acid Breath", "Acid", 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientGoldDragon": {
+    "om": [ "claw", "Slashing", 17, 6, 6, 0, 0, 0, 0, 0, 0, 10 ],
+    "tm": [ "claw", "Slashing", 17, 6, 6, 0, 0, 0, 0, 0, 0, 10 ],
+    "r": [ "tail", "Bludgeoning", 17, 8, 8, 0, 0, 0, 0, 0, 0, 10 ],
+    "b": [ "tail", "Bludgeoning", 17, 8, 8, 0, 0, 0, 0, 0, 0, 10 ],
+    "t": [ "bite", "Piercing", 17, 10, 10, 0, 0, 0, 0, 0, 0, 10 ],
+    "aoe": [ "Fire Breath", "Fire", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10 ]
+  },
+  "AdultGoldDragon": {
+    "om": [ "claw", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 14, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 14, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "bite", "Piercing", 14, 10, 10, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Fire Breath", "Fire", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ]
+  },
+  "YoungGoldDragon": {
+    "om": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "bite", "Piercing", 10, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "bite", "Piercing", 10, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Fire Breath", "Fire", 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GoldDragonWyrmling": {
+    "om": [ "bite", "Piercing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "bite", "Piercing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Fire Breath", "Fire", 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AncientSilverDragon": {
+    "om": [ "claw", "Slashing", 17, 6, 6, 0, 0, 0, 0, 0, 0, 10 ],
+    "tm": [ "claw", "Slashing", 17, 6, 6, 0, 0, 0, 0, 0, 0, 10 ],
+    "r": [ "tail", "Bludgeoning", 17, 8, 8, 0, 0, 0, 0, 0, 0, 10 ],
+    "b": [ "tail", "Bludgeoning", 17, 8, 8, 0, 0, 0, 0, 0, 0, 10 ],
+    "t": [ "bite", "Piercing", 17, 10, 10, 0, 0, 0, 0, 0, 0, 10 ],
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10 ]
+  },
+  "AdultSilverDragon": {
+    "om": [ "claw", "Slashing", 13, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "claw", "Slashing", 13, 6, 6, 0, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "tail", "Bludgeoning", 13, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "b": [ "tail", "Bludgeoning", 13, 8, 8, 0, 0, 0, 0, 0, 0, 8 ],
+    "t": [ "bite", "Piercing", 13, 10, 10, 0, 0, 0, 0, 0, 0, 8 ],
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Wing attack", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8 ]
+  },
+  "YoungSilverDragon": {
+    "om": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "bite", "Piercing", 10, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "bite", "Piercing", 10, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "SilverDragonWyrmling": {
+    "om": [ "bite", "Piercing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "bite", "Piercing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "DragonTurtle": {
+    "om": [ "bite", "Piercing", 13, 12, 12, 12, 0, 0, 0, 0, 0, 7 ],
+    "tm": [ "claw", "Slashing", 13, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "r": [ "claw", "Slashing", 12, 8, 8, 0, 0, 0, 0, 0, 0, 7 ],
+    "b": [ "tail", "Bludgeoning", 13, 12, 12, 12, 0, 0, 0, 0, 0, 7 ],
+    "t": [ "tail", "Bludgeoning", 13, 12, 12, 12, 0, 0, 0, 0, 0, 7 ],
+    "aoe": [ "Steam Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Drider": {
+    "om": [ "longsword one-handed", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "longsword one-handed", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "longsword one-handed", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "longsword two-handed", "Slashing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "longsword two-handed", "Slashing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tdta": [ "bite", "Piercing", 6, 4, 0, 0, 0, 0, 0, 0, 0, 0, "Poison", 8, 8, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "longbow", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3, "Poison", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Dryad": {
+    "om": [ "club", "Bludgeoning", 2, 4, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "club (with shillelagh)", "Bludgeoning", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Duergar": {
+    "om": [ "War Pick", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "War Pick enlarged", "Piercing", 4, 8, 8, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "Javelin ranged or melee", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "Javelin melee enlarged", "Piercing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "AirElemental": {
+    "om": [ "slam", "Bludgeoning", 8, 8, 8, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "slam", "Bludgeoning", 8, 8, 8, 0, 0, 0, 0, 0, 0, 5 ],
+    "aoe": [ "Whirlwind", "Bludgeoning", 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "aoec": [ "Whirlwind flung into creature or wall", "Bludgeoning", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "EarthElemental": {
+    "om": [ "slam", "Bludgeoning", 8, 8, 8, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "slam", "Bludgeoning", 8, 8, 8, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "FireElemental": {
+    "om": [ "Touch", "Fire", 6, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "Touch", "Fire", 6, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "aoed": [ "Ignite", "Fire", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "WaterElemental": {
+    "om": [ "slam", "Bludgeoning", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "slam", "Bludgeoning", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoed": [ "Whelm", "Bludgeoning", 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Drow": {
+    "om": [ "shortsword", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "hand crossbow", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "DrowEliteWarrior": {
+    "om": [ "hand crossbow", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "hand crossbow", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tdta": [ "shortsword", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "shortsword", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "DrowMage": {
+    "tdta": [ "staff", "Bludgeoning", 2, 6, 0, 0, 0, 0, 0, 0, 0, -1, "Poison", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "staff", "Bludgeoning", 2, 8, 0, 0, 0, 0, 0, 0, 0, -1, "Poison", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "DrowPriestessofLolth": {
+    "tdta": [ "Scourge", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 6, 6, 6, 6, 0, 0, 0, 0 ],
+    "tdtb": [ "Scourge", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 6, 6, 6, 6, 0, 0, 0, 0 ]
+  },
+  "Empyrean": {
+    "om": [ "Maul", "Bludgeoning", 17, 6, 6, 6, 6, 6, 6, 0, 0, 10 ],
+    "tm": [ "Bolt", "Your choice of acid, cold, fire, force, lightning, radiant or thunder", 15, 6, 6, 6, 6, 6, 6, 6, 0, 0 ],
+    "r": [ "Bolt", "Your choice of acid, cold, fire, force, lightning, radiant or thunder", 15, 6, 6, 6, 6, 6, 6, 6, 0, 0 ],
+    "b": [ "Maul", "Bludgeoning", 17, 6, 6, 6, 6, 6, 6, 0, 0, 10 ]
+  },
+  "Ettercap": {
+    "om": [ "claws", "Slashing", 4, 4, 4, 0, 0, 0, 0, 0, 0, 2 ],
+    "tdta": [ "bite", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Ettin": {
+    "om": [ "Battleaxe", "Slashing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "Morningstar", "Piercing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "FaerieDragon": {
+    "om": [ "bite", "Piercing", 7, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Flameskull": {
+    "om": [ "fire ray", "Fire", 5, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "fire ray", "Fire", 5, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "b": [ "fire ray", "Fire", 5, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "aoe": [ "Fireball", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Flumph": {
+    "aoed": [ "Reoccurring acid damage", "Acid", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "Tendrils", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2, "Acid", 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Fomorian": {
+    "om": [ "greatclub", "Bludgeoning", 9, 8, 8, 8, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "greatclub", "Bludgeoning", 9, 8, 8, 8, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Evil Eye", "Psychic", 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GasSpore": {
+    "om": [ "touch", "Poison", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "touch", "Poison", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Shrieker": {
+  },
+  "VioletFungus": {
+    "om": [ "rotting touch", "Necrotic", 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, "rotting touch", "Necrotic", 2, 8, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "r": [ "rotting touch", "Necrotic", 2, 8, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "b": [ "rotting touch", "Necrotic", 2, 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GalebDuhr": {
+    "om": [ "slam", "Bludgeoning", 8, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "rolling charge", "Bludgeoning", 8, 6, 6, 6, 6, 0, 0, 0, 0, 5 ]
+  },
+  "Gargoyle": {
+    "om": [ "bite", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "claws", "Slashing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Dao": {
+    "om": [ "fist", "Bludgeoning", 10, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "maul", "Bludgeoning", 10, 6, 6, 6, 6, 0, 0, 0, 0, 6 ],
+    "r": [ "maul", "Bludgeoning", 10, 6, 6, 6, 6, 0, 0, 0, 0, 6 ],
+    "b": [ "fist", "Bludgeoning", 10, 8, 8, 0, 0, 0, 0, 0, 0, 6 ]
+  },
+  "Djinni": {
+    "tdta": [ "scimitar", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 5, "Lightning or thunder", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "scimitar", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 5, "Lightning or thunder", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Efreeti": {
+    "om": [ "hurl flame", "Fire", 7, 6, 6, 6, 6, 6, 0, 0, 0, 0 ],
+    "tm": [ "hurl flame", "Fire", 7, 6, 6, 6, 6, 6, 0, 0, 0, 0 ],
+    "b": [ "hurl flame", "Fire", 7, 6, 6, 6, 6, 6, 0, 0, 0, 0 ],
+    "tdta": [ "scimitar", "Slashing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6, "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Marid": {
+    "om": [ "trident one-handed ranged or melee", "Piercing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "trident one-handed ranged or melee", "Piercing", 10, 6, 6, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "trident two-handed melee", "Piercing", 10, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "trident two-handed melee", "Piercing", 10, 8, 8, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Water Jet", "Bludgeoning", 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Ghost": {
+    "om": [ "withering touch", "Necrotic", 5, 6, 6, 6, 6, 0, 0, 0, 0, 3 ],
+    "tm": [ "withering touch", "Necrotic", 5, 6, 6, 6, 6, 0, 0, 0, 0, 3 ]
+  },
+  "Ghast": {
+    "om": [ "Bite", "Piercing", 3, 8, 8, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claws", "Slashing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Ghoul": {
+    "om": [ "bite", "Piercing", 2, 6, 6, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "claws", "Slashing", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "CloudGiant": {
+    "om": [ "Morningstar", "Piercing", 12, 8, 8, 8, 0, 0, 0, 0, 0, 8 ],
+    "tm": [ "Morningstar", "Piercing", 12, 8, 8, 8, 0, 0, 0, 0, 0, 8 ],
+    "r": [ "rock", "Bludgeoning", 12, 10, 10, 10, 10, 0, 0, 0, 0, 8 ],
+    "b": [ "rock", "Bludgeoning", 12, 10, 10, 10, 10, 0, 0, 0, 0, 8 ]
+  },
+  "FireGiant": {
+    "om": [ "Greatsword", "Slashing", 11, 6, 6, 6, 6, 6, 6, 0, 0, 7 ],
+    "tm": [ "Greatsword", "Slashing", 11, 6, 6, 6, 6, 0, 0, 0, 0, 7 ],
+    "r": [ "Rock", "Bludgeoning", 11, 10, 10, 10, 10, 0, 0, 0, 0, 7 ],
+    "b": [ "Rock", "Bludgeoning", 11, 10, 10, 10, 10, 0, 0, 0, 0, 7 ]
+  },
+  "FrostGiant": {
+    "om": [ "Greataxe", "Slashing", 9, 12, 12, 12, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "Greataxe", "Slashing", 9, 12, 12, 12, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "rock", "Bludgeoning", 9, 10, 10, 10, 10, 0, 0, 0, 0, 6 ],
+    "b": [ "rock", "Bludgeoning", 9, 10, 10, 10, 10, 0, 0, 0, 0, 6 ]
+  },
+  "HillGiant": {
+    "om": [ "greatclub", "Bludgeoning", 8, 8, 8, 8, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "greatclub", "Bludgeoning", 8, 8, 8, 8, 0, 0, 0, 0, 0, 5 ],
+    "r": [ "rock", "Bludgeoning", 8, 10, 10, 10, 0, 0, 0, 0, 0, 5 ],
+    "b": [ "rock", "Bludgeoning", 8, 10, 10, 10, 0, 0, 0, 0, 0, 5 ]
+  },
+  "StoneGiant": {
+    "om": [ "greatclub", "Bludgeoning", 9, 8, 8, 8, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "greatclub", "Bludgeoning", 9, 8, 8, 8, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "rock", "Bludgeoning", 9, 10, 10, 10, 10, 0, 0, 0, 0, 6 ],
+    "b": [ "rock", "Bludgeoning", 8, 10, 10, 10, 0, 0, 0, 0, 0, 5 ]
+  },
+  "StormGiant": {
+    "om": [ "greatsword", "Slashing", 14, 6, 6, 6, 6, 6, 6, 0, 0, 9 ],
+    "tm": [ "rock", "Bludgeoning", 14, 12, 12, 12, 12, 0, 0, 0, 0, 9 ],
+    "r": [ "rock", "Bludgeoning", 14, 12, 12, 12, 12, 0, 0, 0, 0, 9 ],
+    "b": [ "greatsword", "Slashing", 14, 6, 6, 6, 6, 6, 6, 0, 0, 9 ],
+    "aoe": [ "Lightning Strike", "Lightning", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GibberingMouth": {
+    "om": [ "bites", "Piercing", 2, 6, 6, 6, 6, 6, 0, 0, 0, 0 ],
+    "tm": [ "bites", "Piercing", 2, 6, 6, 6, 6, 6, 0, 0, 0, 0 ]
+  },
+  "GithyankiWarrior": {
+    "tdta": [ "greatsword", "Slashing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2, "Psychic", 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "greatsword", "Slashing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2, "Psychic", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GithyankiKnight": {
+    "tdta": [ "silver greatsword", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 6, "Psychic", 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "silver greatsword", "Slashing", 9, 6, 6, 0, 0, 0, 0, 0, 0, 6, "Psychic", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GithyankiMonk": {
+    "om": [ "unarmed strike", "     ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "unarmed strike", "     ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "unarmed strike", "Bludgeoning", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2, "Psychic", 8, 8, 0, 0, 0, 0, 0, 0, 0, "unarmed strike", "Bludgeoning", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2, "Psychic", 8, 8, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GithyankiZerth": {
+    "tdta": [ "unarmed strike", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4, "Psychic", 8, 8, 8, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "unarmed strike", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4, "Psychic", 8, 8, 8, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Gnoll": {
+    "om": [ "bite", "Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "bite", "Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "spear one-handed melee or ranged", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "spear two-handed melee", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "longbow", "Piercing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "GnollPackLord": {
+    "om": [ "bite", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "glaive", "Slashing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "glaive", "Slashing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "longbow", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "longbow", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "GnollFangOfYeenoghu": {
+    "om": [ "claw", "Slashing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claw", "Slashing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "claw", "Slashing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "pc": [ "bite", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3, "Poison", 1000, 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "DeepGnome": {
+    "om": [ "warpick", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "poisoned dart", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "GoblinBoss": {
+    "om": [ "scimitar", "Slashing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "scimitar", "Slashing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "javelin", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "javelin", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Goblin": {
+    "om": [ "scimitar", "Slashing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "shortbow", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "ClayGolem": {
+    "om": [ "slam", "Bludgeoning", 8, 10, 10, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "slam", "Bludgeoning", 8, 10, 10, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "FleshGolem": {
+    "om": [ "slam", "Bludgeoning", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "slam", "Bludgeoning", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "IronGolem": {
+    "om": [ "slam", "Bludgeoning", 13, 8, 8, 8, 0, 0, 0, 0, 0, 7 ],
+    "tm": [ "slam", "Bludgeoning", 13, 8, 8, 8, 0, 0, 0, 0, 0, 7 ],
+    "r": [ "sword", "Slashing", 13, 10, 10, 10, 0, 0, 0, 0, 0, 7 ],
+    "b": [ "sword", "Slashing", 13, 10, 10, 10, 0, 0, 0, 0, 0, 7 ],
+    "t": [ "sword", "Slashing", 13, 10, 10, 10, 0, 0, 0, 0, 0, 7 ],
+    "aoe": [ "Poison Breath", "Poison", 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "StoneGolem": {
+    "om": [ "slam", "Bludgeoning", 10, 8, 8, 8, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "slam", "Bludgeoning", 10, 8, 8, 8, 0, 0, 0, 0, 0, 6 ]
+  },
+  "Gorgon": {
+    "om": [ "gore", "Piercing", 8, 12, 12, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "hooves", "Bludgeoning", 8, 10, 10, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "Grell": {
+    "om": [ "tentacles", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "beak", "Piercing", 4, 4, 4, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Grick": {
+    "om": [ "tentacles", "Slashing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "beak", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "GrickAlpha": {
+    "om": [ "tail", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "tentacles", "Slashing", 7, 8, 8, 8, 8, 0, 0, 0, 0, 4 ],
+    "r": [ "beak", "Piercing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "beak", "Piercing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Griffon": {
+    "om": [ "beak", "Piercing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claws", "Slashing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Grimlock": {
+    "om": [ "   ", "Bludgeoning", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "spiked bone club", "Bludgeoning", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3, "Piercing", 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GreenHag": {
+    "om": [ "claws", "Slashing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "NightHag": {
+    "om": [ "claws", "Slashing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "SeaHag": {
+    "om": [ "claws", "Slashing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "HalfRedDragonVeteran": {
+    "om": [ "longsword one-handed", "Slashing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "longsword one-handed", "Slashing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "longsword two-handed", "Slashing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "shortsword", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "heavy crossbow", "Piercing", 3, 10, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Fire Breath", "Fire", 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Harpy": {
+    "om": [ "claws", "Slashing", 3, 4, 4, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "club", "Bludgeoning", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "HellHound": {
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3, "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "HelmedHorror": {
+    "om": [ "longsword one-handed", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "longsword one-handed", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "longsword two-handed", "Slashing", 6, 10, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "longsword one-handed", "Slashing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Hippogriff": {
+    "om": [ "beak", "Piercing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claws", "Slashing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Hobgoblin": {
+    "om": [ "longsword one-handed", "Slashing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "longsword one-handed martial advantage", "Slashing", 3, 8, 6, 6, 0, 0, 0, 0, 0, 1 ],
+    "r": [ "longsword two-handed", "Slashing", 3, 10, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "b": [ "longsword two-handed", "Slashing", 3, 10, 6, 6, 0, 0, 0, 0, 0, 1 ],
+    "t": [ "longbow", "Piercing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "HobgoblinCaptain": {
+    "om": [ "greatsword", "Piercing", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "greatsword martial advantage", "Piercing", 4, 6, 6, 6, 6, 6, 0, 0, 0, 2 ],
+    "r": [ "javelin", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "javelin martial advantage", "Piercing", 4, 6, 6, 6, 6, 0, 0, 0, 0, 2 ],
+    "t": [ "javelin martial advantage", "Piercing", 4, 6, 6, 6, 6, 0, 0, 0, 0, 2 ]
+  },
+  "HobgoblinWarlord": {
+    "om": [ "longsword one-handed", "Slashing", 9, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "longsword one-handed martial advantage", "Slashing", 9, 8, 6, 6, 6, 6, 0, 0, 0, 3 ],
+    "r": [ "longsword two-handed", "Slashing", 9, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "shield bash", "Bludgeoning", 9, 4, 0, 0, 0, 6, 0, 0, 0, 3 ],
+    "t": [ "javelin", "Piercing", 9, 6, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Homunculus": {
+    "om": [ "bite", "Piercing", 4, 0, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "bite", "Piercing", 4, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "HookHorror": {
+    "om": [ "hook", "Piercing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "hook", "Piercing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Hydra": {
+    "om": [ "bite", "Piercing", 8, 10, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "bite", "Piercing", 8, 10, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "r": [ "bite", "Piercing", 8, 10, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "b": [ "bite", "Piercing", 8, 10, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "t": [ "bite", "Piercing", 8, 10, 0, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "IntellectDevourer": {
+    "om": [ "claws", "Slashing", 4, 4, 4, 0, 0, 0, 0, 0, 0, 2 ],
+    "aoe": [ "Devour Intellect", "Psychic", 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "InvisibleStalker": {
+    "om": [ "slam", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "slam", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Jackalwere": {
+    "om": [ "bite", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "Scimitar", "Slashing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Kenku": {
+    "om": [ "shortsword", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "shortbow", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "WingedKobold": {
+    "om": [ "dagger", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "dropped rock", "Bludgeoning", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Kobold": {
+    "om": [ "Dagger", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "Sling", "Bludgeoning", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Kraken": {
+    "om": [ "bite", "Piercing", 18, 8, 8, 8, 0, 0, 0, 0, 0, 10 ],
+    "tm": [ "tentacle", "Bludgeoning", 18, 6, 6, 6, 0, 0, 0, 0, 0, 10 ],
+    "r": [ "tentacle", "Bludgeoning", 18, 6, 6, 6, 0, 0, 0, 0, 0, 10 ],
+    "b": [ "tentacle", "Bludgeoning", 18, 6, 6, 6, 0, 0, 0, 0, 0, 10 ],
+    "t": [ "tentacle", "Bludgeoning", 18, 6, 6, 6, 0, 0, 0, 0, 0, 10 ],
+    "aoe": [ "Lightning Storm", "Lightning", 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Ink Cloud", "Poison", 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Swallow", "Acid", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Lamia": {
+    "om": [ "claws", "Slashing", 5, 10, 10, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "dagger", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "intoxicating touch", "No", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Lich": {
+    "om": [ "paralyzing touch", "cold", 12, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "paralyzing touch", "cold", 12, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "aoe": [ "Disrupt Life", "necrotic", 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Lizardfolk": {
+    "om": [ "bite", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "heavy club", "Bludgeoning", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "javelin melee or ranged", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "spiked shield", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "LizardfolkShaman": {
+    "om": [ "bite", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "bite in crocodile form", "Piercing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "claws", "slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "LizardKingOrQueen": {
+    "om": [ "bite", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claws", "Slashing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "trident one-handed melee or ranged", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "trident one-handed melee or ranged", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "trident two-handed melee", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Werebear": {
+    "om": [ "bite", "Piercing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "claw", "Slashing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "greataxe", "Slashing", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "t": [ "greataxe", "Slashing", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Wereboar": {
+    "om": [ "maul", "Bludgeoning", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "maul", "Bludgeoning", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "tusks", "Slashing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "tusks charge", "Slashing", 5, 6, 6, 6, 6, 0, 0, 0, 0, 3 ]
+  },
+  "Wererat": {
+    "om": [ "bite", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "shortsword", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "shortsword", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "hand crossbow", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Weretiger": {
+    "om": [ "bite", "Piercing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "Scimitar", "Slashing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "Scimitar", "Slashing", 5, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "claw", "Slashing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "Longbow", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Werewolf": {
+    "om": [ "bite", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "claws", "Slashing", 4, 4, 4, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "spear one-handed melee or ranged", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "Spear two-handed melee", "     ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Magmin": {
+    "om": [ "touch", "Fire", 4, 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoe": [ "Death Burst", " Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Continuous fire damage from touch", "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Manticore": {
+    "om": [ "bite", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claw", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "claw", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "tail spike", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "tail spike", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Medusa": {
+    "om": [ "shortsword", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "shortsword", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tdta": [ "snake hair", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 6, 6, 6, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "longbow", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "DustMephit": {
+    "om": [ "claws", "Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "claws", "Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "aoe": [ "     ", "    ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "IceMephit": {
+    "aoe": [ "Frost Breath", "Cold", 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Death Burst", "Slashing", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "claws", "Slashing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1, "Cold", 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "MagmaMephit": {
+    "aoe": [ "Fire Breath", "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Death Burst", "Fire", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "claws", "Slashing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1, "Fire", 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "MudMephit": {
+    "om": [ "Fists", "Bludgeoning", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "SmokeMephit": {
+    "om": [ "claws", "Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "SteamMephit": {
+    "tdta": [ "claws", "Slashing", 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, "Fire", 4, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Merfolk": {
+    "om": [ "Spear one-handed ranged or melee", "Piercing", 2, 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "Spear two-handed", "Piercing", 2, 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Merrow": {
+    "om": [ "bite", "Piercing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claws", "Slashing", 6, 4, 4, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "harpoon", "Piercing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Mimic": {
+    "om": [ "Pseudopod", "Bludgeoning", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tdta": [ "bite", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3, "Acid", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "MindFlayer": {
+    "om": [ "tentacles", "Psychic", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "extract brain", "Piercing", 7, 10, 10, 10, 10, 10, 10, 10, 10, 0 ],
+    "aoed": [ "Mind Blast", "Psychic", 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Minotaur": {
+    "om": [ "greataxe", "Slashing", 6, 12, 12, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "gore", "Piercing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "gore charge", "Piercing", 6, 8, 8, 8, 8, 0, 0, 0, 0, 4 ]
+  },
+  "Monodrone": {
+    "om": [ "dagger", "Piercing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "javelin", "Piercing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Duodrone": {
+    "om": [ "fist", "Bludgeoning", 2, 4, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "fist", "Bludgeoning", 2, 4, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "r": [ "javelin ranged or melee", "Piercing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Tridrone": {
+  },
+  "Quadrone": {
+    "om": [ "fist", "Bludgeoning", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "fist", "Bludgeoning", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "r": [ "shortbow", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "shortbow", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "shortbow", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Pentadrone": {
+    "om": [ "arm", "Bludgeoning", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "arm", "Bludgeoning", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "arm", "Bludgeoning", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "arm", "Bludgeoning", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "arm", "Bludgeoning", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Mummy": {
+    "tdta": [ "rotting fist", "Bludgeoning", 5, 6, 6, 0, 0, 0, 0, 0, 0, 0, "Necrotic", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "MummyLord": {
+    "tdta": [ "rotting fist", "Bludgeoning", 9, 6, 6, 6, 0, 0, 0, 0, 0, 4, "Necrotic", 6, 6, 6, 6, 6, 6, 0, 0, 0 ],
+    "tdtb": [ "rotting fist", "Bludgeoning", 9, 6, 6, 6, 0, 0, 0, 0, 0, 4, "Necrotic", 6, 6, 6, 6, 6, 6, 0, 0, 0 ]
+  },
+  "BoneNaga": {
+    "tdta": [ "bite", "Piercing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "SpiritNaga": {
+    "pc": [ "bite", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 2, 8, 8, 8, 8, 8, 8, 8, 0, 0 ]
+  },
+  "GuardianNaga": {
+    "tdta": [ "   ", "    ", 8, 8, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 0, 0, 0, 8, 8, 8, 8, 0, 0 ],
+    "pc": [ "bite", "Piercing", 8, 8, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 2, 8, 8, 8, 8, 8, 8, 8, 8, 0 ]
+  },
+  "Nightmare": {
+    "tdta": [ "Hooves", "Bludgeoning", 6, 8, 8, 0, 0, 0, 0, 0, 0, 4, "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Nothic": {
+    "om": [ "claw", "Slashing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claw", "Slashing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "aoed": [ "Rotting Gaze", "Necrotic", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Ogre": {
+    "om": [ "greatclub", "Bludgeoning", 6, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "javelin", "Piercing", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "HalfOgre": {
+    "om": [ "Battleaxe one-handed", "Slashing", 5, 8, 8, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "Battleaxe two-handed", "Slashing", 5, 10, 10, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "javelin", "Piercing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "javelin", "Piercing", 5, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Oni": {
+    "om": [ "claw", "Slashing", 7, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "glaive", "Slashing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "glaive", "Slashing", 7, 10, 10, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "glaive in small or medium form", "Slashing", 7, 10, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "BlackPudding": {
+    "aoec": [ "Corrosive Form", "Acid", 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "Pseudopod", "Bludgeoning", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3, "Acid", 8, 8, 8, 8, 0, 0, 0, 0, 0 ]
+  },
+  "GelatinousCube": {
+    "om": [ "Pseudopod", "Acid", 4, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Ooze Cube", "Acid", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GrayOoze": {
+    "tdta": [ "Pseudopod", "Bludgeoning", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1, "Acid", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "OchreJelly": {
+    "tdta": [ "Pseudopod", "Bludgeoning", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2, "Acid", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Orc": {
+    "om": [ "greataxe", "Slashing", 5, 12, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "javelin", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "OrcWarChief": {
+    "om": [ "greataxe", "Slashing", 6, 12, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "greataxe", "Slashing", 6, 12, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "spear one-handed ranged or melee", "Piercing", 6, 6, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "spear one-handed ranged or melee", "Piercing", 6, 6, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "spear two-handed melee", "Piercing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "OrcEyeOfGruumsh": {
+    "om": [ "spear one-handed ranged or melee", "Piercing", 5, 6, 8, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "spear two handed melee", "Piercing", 5, 8, 8, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Orog": {
+    "om": [ "greataxe", "Slashing", 6, 12, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "greataxe", "Slashing", 6, 12, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "javelin", "Piercing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "javelin", "Piercing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Otyugh": {
+    "om": [ "bite", "Piercing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "bite", "Piercing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 3 ],
+    "aoed": [ "tentacle Slam", "Bludgeoning", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tdta": [ "tentacle", "Bludgeoning", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3, "Piercing", 8, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "tentacle", "Bludgeoning", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3, "Piercing", 8, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Owlbear": {
+    "om": [ "beak", "Piercing", 7, 10, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "claws", "Slashing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "Pegasus": {
+    "om": [ "Hooves", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "Hooves", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Peryton": {
+    "om": [ "gore", "Piercing", 5, 8, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "gore dive attack", "Piercing", 5, 8, 8, 8, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "talons", "Piercing", 5, 4, 4, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "talons dive attack", "Piercing", 5, 4, 4, 8, 8, 0, 0, 0, 0, 3 ]
+  },
+  "Piercer": {
+    "om": [ "10 foot drop", "Piercing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "20 foot drop", "Piercing", 3, 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "r": [ "30 foot drop", "Piercing", 3, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "b": [ "40 foot drop", "Piercing", 3, 6, 6, 6, 6, 0, 0, 0, 0, 0 ],
+    "t": [ "50 foot drop", "Piercing", 3, 6, 6, 6, 6, 6, 0, 0, 0, 0 ]
+  },
+  "Pixie": {
+  },
+  "Pseudodragon": {
+    "om": [ "bite", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "sting", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "PurpleWorm": {
+    "om": [ "bite initial", "Piercing", 9, 8, 8, 8, 0, 0, 0, 0, 0, 9 ],
+    "b": [ "bite initial", "Piercing", 9, 8, 8, 8, 0, 0, 0, 0, 0, 9 ],
+    "aoe": [ "Swallowed Damage", "Acid", 6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "pc": [ "tail stinger", "Piercing", 9, 6, 6, 6, 0, 0, 0, 0, 0, 9, "Poison", 2, 6, 6, 6, 6, 6, 6, 6, 6, 0 ]
+  },
+  "Quaggoth": {
+    "om": [ "claw", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claw", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "claw wounded fury", "Slashing", 5, 6, 6, 6, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "claw wounded fury", "Slashing", 5, 6, 6, 6, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Rakshasa": {
+    "om": [ "claw", "slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "claw", "slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "YoungRemorhaz": {
+    "aoec": [ "Heated Body", "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 6, 10, 10, 10, 0, 0, 0, 0, 0, 4, "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Remorhazes": {
+    "aoe": [ "swallow damage at start of turn", "Acid", 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Heated body", "Fire", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "Bite", "Piercing", 11, 10, 10, 10, 10, 10, 10, 0, 0, 7, "Fire", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Revenant": {
+    "om": [ "fist", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "fist", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "fist against sworn vengeance target", "Bludgeoning", 7, 6, 6, 6, 6, 6, 6, 0, 0, 4 ],
+    "b": [ "fist against sworn vengeance target", "Bludgeoning", 7, 6, 6, 6, 6, 6, 6, 0, 0, 4 ]
+  },
+  "Roc": {
+    "om": [ "Beak", "Piercing", 13, 8, 8, 8, 8, 0, 0, 0, 0, 9 ],
+    "tm": [ "Talons", "Slashing", 13, 6, 6, 6, 6, 0, 0, 0, 0, 9 ]
+  },
+  "Roper": {
+    "om": [ "bite", "Piercing", 7, 8, 8, 8, 8, 0, 0, 0, 0, 4 ],
+    "tm": [ "tendrils", "No", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "r": [ "tendrils", "No", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "b": [ "tendrils", "No", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "t": [ "tendrils", "No", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "RustMonster": {
+    "om": [ "bite", "Piercing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "bite", "Piercing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Sahuagin": {
+    "om": [ "bite", "Piercing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "claws", "Slashing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "r": [ "spear one-handed ranged or melee", "Piercing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "b": [ "spear two-handed melee", "Piercing", 3, 8, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "SahuaginPriestess": {
+    "om": [ "bite", "Piercing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "claws", "Slashing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "SahuaginBaron": {
+    "om": [ "bite", "Piercing", 7, 4, 4, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claws", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "claws", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "Trident one-handed ranged or melee", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "Trident two-handed melee", "Piercing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "FireSnake": {
+    "aoec": [ "Heated Body", "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "tail", "Piercing", 3, 4, 0, 0, 0, 0, 0, 0, 0, 1, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Salamander": {
+    "aoec": [ "Heated Body", "Fire", 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "Spear one-handed ranged or melee", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "Spear two-handed melee", "Piercing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4, "Fire", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Satyr": {
+    "om": [ "ram", "Bludgeoning", 3, 4, 4, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "shortsword", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "shortbow", "Piercing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Scarecrow": {
+    "om": [ "claw", "Slashing", 3, 4, 4, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "claw", "Slashing", 3, 4, 4, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Shadow": {
+    "om": [ "strength drain", "Necrotic", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "strength drain", "Necrotic", 4, 6, 6, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "ShamblingMound": {
+    "om": [ "Slam", "Bludgeoining", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "Slam", "Bludgeoining", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "aoed": [ "Engulf", "Bludgeoning", 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "ShieldGuardian": {
+    "om": [ "fist", "Bludgeoining", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "fist", "Bludgeoining", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Skeletons": {
+    "om": [ "shortsword", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "shortbow", "Piercing", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "MinotaurSkeleton": {
+    "om": [ "greataxe", "Slashing", 6, 12, 12, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "gore", "Piercing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "gore charge", "Piercing", 6, 8, 8, 8, 8, 0, 0, 0, 0, 4 ]
+  },
+  "WarhorseSkeleton": {
+    "om": [ "hooves", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "hooves", "Bludgeoning", 6, 6, 6, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "RedSlaad": {
+    "om": [ "bite", "Piercing", 6, 4, 4, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claws", "Piercing", 6, 8, 0, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "SlaadTadpole": {
+    "om": [ "bite", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "BlueSlaad": {
+    "om": [ "bite", "Piercing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "claw", "Piercing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "r": [ "claw", "Piercing", 8, 6, 6, 0, 0, 0, 0, 0, 0, 5 ],
+    "aoec": [ "infection every 24 hours", " ", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GreenSlaad": {
+    "om": [ "bite", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "claw", "Slashing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "staff", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "hurl flame", "Fire", 4, 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "GraySlaad": {
+    "om": [ "bite", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claws", "Slashing", 7, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "claws", "Slashing", 7, 10, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "greatsword", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 3 ],
+    "t": [ "greatsword", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 3 ]
+  },
+  "DeathSlaad": {
+    "aoe": [ "Fireball", "Fire", 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoeb": [ "Cloudkill", "Poisonous", 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "bite", "Piercing", 9, 8, 0, 0, 0, 0, 0, 0, 0, 5, "Necrotic", 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "claws", "Slashing", 9, 10, 0, 0, 0, 0, 0, 0, 0, 5, "Necrotic", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Specter": {
+    "om": [ "Life Drain", "Necrotic", 4, 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "Life Drain", "Necrotic", 4, 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Androsphinx": {
+    "om": [ "claw", "Slashing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "claw", "Slashing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "claw", "Slashing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "b": [ "claw", "Slashing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "t": [ "claw", "Slashing", 12, 10, 10, 0, 0, 0, 0, 0, 0, 6 ],
+    "aoe": [ "Third Roar", "Thunder", 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "    ", "   ", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoett": [ "Flame Strike", "Fire", 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, "Radiant", 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Gynosphinx": {
+    "om": [ "claw", "Slashing", 8, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 8, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "claw", "Slashing", 8, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "claw", "Slashing", 8, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "claw", "Slashing", 8, 8, 8, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "Sprite": {
+    "om": [ "longsword", "Slashing", 2, 0, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "shortbow", "Piercing", 6, 0, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Stirge": {
+    "om": [ "Blood Drain", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "aoe": [ "   ", "   ", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoec": [ "Blood Drain once attached", "Piercing", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "SuccubusOrIncubus": {
+    "om": [ "claw", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "aoe": [ "Draining Kiss", "Psychic", 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "Tarrasque": {
+    "om": [ "bite", "Piercing", 19, 12, 12, 12, 12, 0, 0, 0, 0, 10 ],
+    "tm": [ "claw", "Slashing", 19, 8, 8, 8, 8, 0, 0, 0, 0, 10 ],
+    "r": [ "horns", "Piercing", 19, 10, 10, 10, 10, 0, 0, 0, 0, 10 ],
+    "b": [ "Tail", " Bludgeoning", 19, 6, 6, 6, 6, 0, 0, 0, 0, 10 ],
+    "t": [ "bite", "Piercing", 19, 12, 12, 12, 12, 0, 0, 0, 0, 10 ],
+    "aoec": [ "Swallow", "Acid", 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "ThriKreen": {
+    "om": [ "bite", "Piercing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "claws", "Slashing", 3, 4, 4, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "Treant": {
+    "om": [ "slam", "Bludgeoning", 10, 6, 6, 6, 0, 0, 0, 0, 0, 6 ],
+    "tm": [ "slam", "Bludgeoning", 10, 6, 6, 6, 0, 0, 0, 0, 0, 6 ],
+    "r": [ "rock", "Bludgeoning", 10, 10, 10, 10, 10, 0, 0, 0, 0, 6 ],
+    "b": [ "rock", "Bludgeoning", 10, 10, 10, 10, 10, 0, 0, 0, 0, 6 ]
+  },
+  "Troglodyte": {
+    "om": [ "bite", "Piercing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "claw", "Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "claw", "Slashing", 4, 4, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Troll": {
+    "om": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "claw", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "bite", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4 ]
+  },
+  "UmberHulk": {
+    "om": [ "claw", "Slashing", 8, 8, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "tm": [ "claw", "Slashing", 8, 8, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "r": [ "claw", "Slashing", 8, 8, 0, 0, 0, 0, 0, 0, 0, 5 ],
+    "b": [ "mandibles", "Slashing", 8, 8, 8, 0, 0, 0, 0, 0, 0, 5 ]
+  },
+  "Unicorn": {
+    "om": [ "horn", "Piercing", 7, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "hooves", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "hooves", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "hooves", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "t": [ "hooves", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "h": [ "Healing Touch", 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "Vampire": {
+    "om": [ "unarmed strike", "Bludgeoning", 9, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "unarmed strike", "Bludgeoning", 9, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "unarmed strike", "Bludgeoning", 9, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "unarmed strike", "Bludgeoning", 9, 8, 0, 0, 0, 0, 0, 0, 0, 4 ],
+    "tdta": [ "bite", "Piercing", 9, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Necrotic", 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "bite", "Piercing", 9, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Necrotic", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "VampireSpawn": {
+    "om": [ "claws", "Slashing", 6, 4, 4, 0, 0, 0, 0, 0, 0, 3 ],
+    "tdta": [ "bite", "Piercing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 3, "Necrotic", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "WaterWeird": {
+    "om": [ "Constrict", "Bludgeoning", 5, 6, 6, 6, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "Constrict", "Bludgeoning", 5, 6, 6, 6, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Wight": {
+    "om": [ "life drain", "Necrotic", 4, 6, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "tm": [ "longbow", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "r": [ "longbow", "Piercing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "b": [ "longsword one-handed", " Slashing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2 ],
+    "t": [ "longsword two-handed", " Slashing", 4, 10, 0, 0, 0, 0, 0, 0, 0, 2 ]
+  },
+  "WilloWisp": {
+    "om": [ "shock", "Lightning", 4, 8, 8, 0, 0, 0, 0, 0, 0, 0 ],
+    "tm": [ "shock", "Lightning", 4, 8, 8, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Wraith": {
+    "om": [ "Life Drain", "Necrotic", 6, 8, 8, 8, 8, 0, 0, 0, 0, 3 ],
+    "aoec": [ "Incorporeal Movement", "Force", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Wyvern": {
+    "om": [ "bite", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "claws", "Slashing", 7, 8, 8, 0, 0, 0, 0, 0, 0, 4 ],
+    "pc": [ "stinger", "Piercing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4, "Poison", 2, 6, 6, 6, 6, 6, 6, 6, 0, 0 ]
+  },
+  "Xorn": {
+    "om": [ "claw", "Slashing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "claw", "Slashing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "r": [ "claw", "Slashing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "bite", "Piercing", 6, 6, 6, 6, 0, 0, 0, 0, 0, 3 ]
+  },
+  "Yeti": {
+    "aoec": [ "   ", "cold", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "aoed": [ "Chilling Gaze", "Cold", 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "claw", "Slashing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4, "cold", 6, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "claw", "Slashing", 6, 6, 0, 0, 0, 0, 0, 0, 0, 4, "cold", 6, 0, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "AbominableYeti": {
+    "aoe": [ "Cold Breath", "Cold", 8, 8, 0, 0, 8, 8, 0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 8, 0, 0, 0, 0 ],
+    "aoed": [ "Chilling Gaze", "Cold", 6, 6, 6, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdta": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 7, "Cold", 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "claw", "Slashing", 11, 6, 6, 0, 0, 0, 0, 0, 0, 7, "Cold", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YuanTiAbomination": {
+    "om": [ "scimitar", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tm": [ "scimitar", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "r": [ "scimitar", "Slashing", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "b": [ "constrict", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tdta": [ "longbow", "Piercing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 3, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "bite", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YuanTiMalisona": {
+    "om": [ "scimitar", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "scimitar", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tdta": [ "longbow", "Slashing", 4, 8, 0, 0, 0, 0, 0, 0, 0, 2, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "bite", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YuanTiMalisonb": {
+    "tdta": [ "bite", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "bite", "Piercing", 5, 4, 0, 0, 0, 0, 0, 0, 0, 3, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YuanTiMalisonc": {
+    "om": [ "scimitar", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "tm": [ "scimitar", "Slashing", 5, 6, 0, 0, 0, 0, 0, 0, 0, 3 ],
+    "b": [ "constrict", "Bludgeoning", 7, 6, 6, 0, 0, 0, 0, 0, 0, 4 ],
+    "tdta": [ "longbow", "Piercing", 6, 8, 8, 0, 0, 0, 0, 0, 0, 3, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ],
+    "tdtb": [ "bite", "Piercing", 7, 6, 0, 0, 0, 0, 0, 0, 0, 4, "Poison", 6, 6, 6, 0, 0, 0, 0, 0, 0 ]
+  },
+  "YuanTiPureblood": {
+    "om": [ "scimitar", "Slashing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tm": [ "scimitar", "Slashing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ],
+    "tdta": [ "shortbow", "Piercing", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1, "Poison", 6, 6, 0, 0, 0, 0, 0, 0, 0 ]
+  },
+  "Zombie": {
+    "tm": [ "Slam", "Bludgeoning", 3, 6, 0, 0, 0, 0, 0, 0, 0, 1 ]
+  },
+  "OgreZombie": {
+    "tm": [ "Morningstar", "Bludgeoning", 6, 8, 0, 0, 0, 8, 0, 0, 0, 4 ]
+  }
+}
